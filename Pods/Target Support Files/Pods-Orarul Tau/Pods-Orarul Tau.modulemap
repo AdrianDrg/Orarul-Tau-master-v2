@@ -1,0 +1,6 @@
+framework module Pods_Orarul_Tau {
+  umbrella header "Pods-Orarul Tau-umbrella.h"
+
+  export *
+  module * { export * }
+}

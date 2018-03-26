@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.0)
+  - CollapsibleTableSectionViewController (1.0.1)
+  - SBPickerSelector (1.2.0)
+  - SwiftyJSON (4.0.0)
+  - UnderLineTextField (2.0.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - CollapsibleTableSectionViewController (~> 1.0.0)
+  - SBPickerSelector
+  - SwiftyJSON
+  - UnderLineTextField (~> 2.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  CollapsibleTableSectionViewController: c41694de812a1039c5f8581c934cf0fc38e4e871
+  SBPickerSelector: ca8defc713bf229a35a06100ba2e6e96c424ac6a
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UnderLineTextField: e3c9640e3a3fe529a617ee217f5d8386b8e8440c
+
+PODFILE CHECKSUM: 5ac755bc3f8fe6ae4fa50de20d1ea5854e35d599
+
+COCOAPODS: 1.3.1
