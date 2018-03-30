@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A323AB5206D65E6007F92C1 /* OrarDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A323AB3206D65E6007F92C1 /* OrarDataModel.xcdatamodeld */; };
 		3A5BAE642063C11300CFE46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5BAE632063C11300CFE46D /* Assets.xcassets */; };
 		594B89971006F7AE4AF676EE /* Pods_Orarul_Tau.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7786581BB1EDA915806CB23F /* Pods_Orarul_Tau.framework */; };
 		B80A6CBA2057F7B3002B8ED7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A6CB92057F7B3002B8ED7 /* AppDelegate.swift */; };
@@ -15,11 +16,10 @@
 		B80A6CC72057F7B3002B8ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A6CC52057F7B3002B8ED7 /* LaunchScreen.storyboard */; };
 		B8DB099D20583E270074E555 /* OrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB099C20583E270074E555 /* OrarViewController.swift */; };
 		B8E91B2E205982AF00A5E6D3 /* OrarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E91B2D205982AF00A5E6D3 /* OrarViewCell.swift */; };
-		B8F64C79205950C500E47DA7 /* OrarDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F64C78205950C500E47DA7 /* OrarDataModel.swift */; };
-		B8F64C7E2059530500E47DA7 /* OrarBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F64C7D2059530500E47DA7 /* OrarBank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A323AB4206D65E6007F92C1 /* OrarDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrarDataModel.xcdatamodel; sourceTree = "<group>"; };
 		3A5BAE632063C11300CFE46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7786581BB1EDA915806CB23F /* Pods_Orarul_Tau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Orarul_Tau.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A193DEBEC944760D0C4276 /* Pods-Orarul Tau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orarul Tau.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.debug.xcconfig"; sourceTree = "<group>"; };
@@ -31,8 +31,6 @@
 		B80A6CC82057F7B3002B8ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DB099C20583E270074E555 /* OrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarViewController.swift; sourceTree = "<group>"; };
 		B8E91B2D205982AF00A5E6D3 /* OrarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarViewCell.swift; sourceTree = "<group>"; };
-		B8F64C78205950C500E47DA7 /* OrarDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarDataModel.swift; sourceTree = "<group>"; };
-		B8F64C7D2059530500E47DA7 /* OrarBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarBank.swift; sourceTree = "<group>"; };
 		DAF4744645B12357040B9B11 /* Pods-Orarul Tau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orarul Tau.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,8 +107,7 @@
 		B8F64C7B205950E800E47DA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B8F64C78205950C500E47DA7 /* OrarDataModel.swift */,
-				B8F64C7D2059530500E47DA7 /* OrarBank.swift */,
+				3A323AB3206D65E6007F92C1 /* OrarDataModel.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,9 +261,8 @@
 				B80A6CBC2057F7B3002B8ED7 /* ViewController.swift in Sources */,
 				B8DB099D20583E270074E555 /* OrarViewController.swift in Sources */,
 				B8E91B2E205982AF00A5E6D3 /* OrarViewCell.swift in Sources */,
+				3A323AB5206D65E6007F92C1 /* OrarDataModel.xcdatamodeld in Sources */,
 				B80A6CBA2057F7B3002B8ED7 /* AppDelegate.swift in Sources */,
-				B8F64C7E2059530500E47DA7 /* OrarBank.swift in Sources */,
-				B8F64C79205950C500E47DA7 /* OrarDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +449,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A323AB3206D65E6007F92C1 /* OrarDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A323AB4206D65E6007F92C1 /* OrarDataModel.xcdatamodel */,
+			);
+			currentVersion = 3A323AB4206D65E6007F92C1 /* OrarDataModel.xcdatamodel */;
+			path = OrarDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B80A6CAE2057F7B3002B8ED7 /* Project object */;
 }

@@ -10,6 +10,7 @@ import UIKit
 import SBPickerSelector
 import Alamofire
 import SwiftyJSON
+import CoreData
 
 class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDelegate{
     
@@ -19,6 +20,10 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
     @IBOutlet weak var groupEdit: UITextField!
     var indexValue : Int = 0
     
+    
+    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
     let accesURL = "http://www.sisc.ro/orar/api/gate.php"
     let collegesParameters : [String : String] = ["action" : "get_colleges", "client" : "Android", "version" : "1.519"]
     let uptateParameters : [String : String] = ["college" : "csie", "action" : "get_updates", "client" : "Android", "version" : "1.519"]
@@ -27,17 +32,13 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
     let profesoriParameters : [String : String] = ["college" : "csie", "action" : "get_profesori", "client" : "Android", "version" : "1.519"]
     let saliParameters : [String : String] = ["college" : "csie", "action" : "get_sali", "client" : "Android", "version" : "1.519"]
     let oreParameters : [String : String] = ["college" : "csie", "action" : "get_ore", "client" : "Android", "version" : "1.519"]
-   //let tabsParameters : [String : String] = ["college" : "csie", "action" : "get_tabs", "client" : "Android", "version" : "1.519"]
-
-    let universitati = ["Academia de Studii Economice Bucuresti"]
-    var facultati = [String]()
-    var groupe = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(dataFilePath)
         self.navigationController?.navigationBar.tintColor = UIColor.white
-        getData(URL: accesURL, param: collegesParameters)
-       
+        getData(URL: accesURL, param: groupParameters)
+        
     }
     
         /*===Making the HTTP POST request====*/
@@ -55,16 +56,30 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
     }
     
     
+    
     /*===Parsing the JSON====*/
     func JsonDataParsing(json : JSON) {
-        let stringSize = json["response"]["colleges"][0]["grupe"].count
-        facultati.append(String(describing: json["response"]["colleges"][0]["title"]))
-       
+        let stringSize = json["response"]["grupe"].count
+        print(stringSize)
         var i = 0
-        while i < stringSize{
-            let dataTest = String(describing: json["response"]["colleges"][0]["grupe"][i]["title"])
-            groupe.append(dataTest)
+        while i < stringSize {
+            let setGroup = Grupe(context: self.context)
+            setGroup.serie = String(describing: json["response"]["grupe"][i]["serie"])
+            setGroup.an = String( describing: json["response"]["grupe"][i]["an"])
+            setGroup.id = String( describing: json["response"]["grupe"][i]["id"])
+            setGroup.title = String( describing: json["response"]["grupe"][i]["title"])
+            setGroup.uTime = String( describing: json["response"]["grupe"][i]["utime"])
             i += 1
+        }
+        SaveData()
+    }
+    
+    func SaveData(){
+
+        do {
+            try context.save()
+        } catch {
+            print("There was an error when saving the data \(error)")
         }
     }
     
@@ -78,7 +93,7 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
        uniEdit.endEditing(true)
         
         let picker: SBPickerSelector = SBPickerSelector()
-        picker.pickerData = universitati //picker content
+       // picker.pickerData = universitati //picker content
         picker.delegate = self
         picker.pickerType = SBPickerSelectorType.text
         picker.doneButtonTitle = "Done"
@@ -98,7 +113,7 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
         facEdit.endEditing(true)
         
         let picker: SBPickerSelector = SBPickerSelector()
-        picker.pickerData = facultati
+        //picker.pickerData = Date!
         picker.delegate = self
         picker.pickerType = SBPickerSelectorType.text
         picker.doneButtonTitle = "Done"
@@ -118,7 +133,7 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
         groupEdit.endEditing(true)
         
         let picker: SBPickerSelector = SBPickerSelector()
-        picker.pickerData = groupe
+       // picker.pickerData = Date!
         picker.delegate = self
         picker.pickerType = SBPickerSelectorType.text
         picker.doneButtonTitle = "Done"

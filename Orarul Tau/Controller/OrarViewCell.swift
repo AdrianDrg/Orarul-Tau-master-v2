@@ -9,8 +9,6 @@
 import UIKit
 
 class OrarViewCell: UITableViewCell {
-
-    let dataOrar = OrarBank()
     
     @IBOutlet weak var textCell: UILabel!
     
