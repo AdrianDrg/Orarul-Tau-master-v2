@@ -19,7 +19,9 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
     @IBOutlet weak var facEdit: UITextField!
     @IBOutlet weak var groupEdit: UITextField!
     var indexValue : Int = 0
+    var paramIndex : Int = 0
     
+    let universitati = ["Academia de Studii Economice din Bucuresti"]
     
     let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
@@ -37,10 +39,9 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
         super.viewDidLoad()
         print(dataFilePath)
         self.navigationController?.navigationBar.tintColor = UIColor.white
-        getData(URL: accesURL, param: groupParameters)
         
+        getData(URL: accesURL, param: collegesParameters)
     }
-    
         /*===Making the HTTP POST request====*/
     func getData(URL: String, param: [String : String]){
         Alamofire.request(URL, method: .post, parameters: param, encoding: JSONEncoding.default).responseJSON { response in
@@ -55,27 +56,34 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
         }
     }
     
-    
-    
     /*===Parsing the JSON====*/
     func JsonDataParsing(json : JSON) {
-        let stringSize = json["response"]["grupe"].count
+
+        let setGroup = College(context: self.context)
+        setGroup.titlu_facultate = String(describing: json["response"]["colleges"][0]["title"])
+        setGroup.uTime = String(describing: json["response"]["colleges"][0]["utime"])
+
+        
+        let stringSize = json["response"]["colleges"][0]["grupe"].count
         print(stringSize)
+        
         var i = 0
-        while i < stringSize {
-            let setGroup = Grupe(context: self.context)
-            setGroup.serie = String(describing: json["response"]["grupe"][i]["serie"])
-            setGroup.an = String( describing: json["response"]["grupe"][i]["an"])
-            setGroup.id = String( describing: json["response"]["grupe"][i]["id"])
-            setGroup.title = String( describing: json["response"]["grupe"][i]["title"])
-            setGroup.uTime = String( describing: json["response"]["grupe"][i]["utime"])
-            i += 1
+        while i < stringSize{
+            let setGroup = College(context: self.context)
+            setGroup.id = String(describing: json["response"]["colleges"][0]["grupe"][i]["id"])
+            setGroup.title = String(describing: json["response"]["colleges"][0]["grupe"][i]["title"])
+            
+        i += 1
         }
+        
         SaveData()
+        
+        
     }
     
     func SaveData(){
 
+        
         do {
             try context.save()
         } catch {
@@ -90,10 +98,10 @@ class ViewController: UIViewController, SBPickerSelectorDelegate, UITextFieldDel
     }
     
     @IBAction func editStarted(_ sender: Any) {
-       uniEdit.endEditing(true)
-        
+       
+        uniEdit.endEditing(true)
         let picker: SBPickerSelector = SBPickerSelector()
-       // picker.pickerData = universitati //picker content
+        picker.pickerData = universitati //picker content
         picker.delegate = self
         picker.pickerType = SBPickerSelectorType.text
         picker.doneButtonTitle = "Done"
