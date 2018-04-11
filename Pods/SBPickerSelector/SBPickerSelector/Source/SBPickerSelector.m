@@ -476,7 +476,7 @@
 	[UIView animateWithDuration:0.3 animations:^{
 		self.background.backgroundColor = [self.background.backgroundColor colorWithAlphaComponent:0];
 		CGRect frame = self.view.frame;
-		frame.origin = origin_;
+        frame.origin = self->origin_;
 		self.view.frame = frame;
 		
 	} completion:^(BOOL finished) {

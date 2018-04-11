@@ -7,200 +7,195 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096BEB16AC73F0A28C9CB268D8210BA8 /* Pods-Orarul Tau-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F07F7C05C57593E42028ADA275E1E5 /* Pods-Orarul Tau-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7291FE265F69E90D60CB7E7FF4F960 /* Timeline.swift */; };
-		13492B9E96D7D7AF2959D05ECAE1E4E3 /* UIAnimatableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE73BB241009470AF52B217F742D8 /* UIAnimatableLabel.swift */; };
-		13B675A0952816EC667D52C0B1125688 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400E1410F7918E2C011076A48864C53 /* SwiftyJSON.swift */; };
-		17880FD0C003E5B134ED5577E538DB16 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A846B7D1FE894A5CEC3CB38AB6625F /* SwiftyJSON-dummy.m */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99DCD18A689398BE91293CB43AF38D9A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F8F58D11325A19EB4AACC06F2E2ABA7 /* VerticalAlignmentTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616DA32913DACB94E8F1329CBAEC74DE /* VerticalAlignmentTextLayer.swift */; };
-		1FA6824E8E84AE56E5060C3F08E8A2E7 /* SBPickerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0E17115C59E9594B088ED00600496D /* SBPickerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FC6EA0354959DB64AF31FA94C5CDFF6 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A046075BA8FFF561912544898565F4C /* CollapsibleTableViewHeader.swift */; };
-		32B71FC8064B77C0243B4AD0A7FF0112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		32D26D0FF3FBDCC9B9154D7C492E32EB /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F6CEBFDB4EEBBC369F00C8E772A4BD /* UnderLineTextField.swift */; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB1F19E3DDFE854ED9E11591E6E9CB0 /* TaskDelegate.swift */; };
-		39CCEB8B1B001A6FCCD4BE31B3CFFCC2 /* UnderLineTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B642D34133716F977279AD39FF746F /* UnderLineTextField-dummy.m */; };
-		4B692096D0C85E6174046D573AC233F4 /* Extera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60232838C9EB12C2DE01527375ABAA16 /* Extera.xcassets */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D013E2FDB6DA5DD0C93A3B97797A3 /* Request.swift */; };
-		5764C1C3B4D30618F0DBC569EB8B37AD /* SBPickerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CD6031A0960B8C1CD109E5BD00833A /* SBPickerSelector-dummy.m */; };
-		5F15AB9A0DAB41746B6C22450FE08D4D /* CollapsibleTableSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7003C08ED554918C5DFD4239E76AC86 /* CollapsibleTableSectionViewController.swift */; };
-		5FF2276F60FA4F316553CD3D5C556389 /* Pods-Orarul Tau-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96924F09EF3D7B8264267540744D1AD4 /* Pods-Orarul Tau-dummy.m */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E051C7832F5CEDADDD2B77AF863778 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A195CA35D70C38449C9E0195BF96A /* ServerTrustPolicy.swift */; };
-		64BE278BD5CF36A23372D3A518FC2C3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		760A219B47EC5B9A786F4981EAFFB519 /* UnderLineTextFieldValidateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F2C33FDF6A568B7813E35D9D86CAF3 /* UnderLineTextFieldValidateType.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF56C4CB6912BE932B878BCD18083B2 /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9588B36B20D85D4A3AF1A1289C1104E /* Result.swift */; };
-		9998ABA9E7F38F608EAC9F589837915F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9FD062CABBD3D099FE41C7568134A /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7440BFB7D7F7F86528B5D5F23F117181 /* NetworkReachabilityManager.swift */; };
-		A3936B01C2AAAF63825161AD60238CAB /* UnderLineTextFieldFocusStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B819EAD4264D1FD855E93FDE8D1CE6 /* UnderLineTextFieldFocusStatus.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B3EED5A0DA125F4BCF20D09ABB36D5 /* Alamofire-dummy.m */; };
-		AB6582E6C83AF88414F5CFCF99831366 /* UnderLineTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D111AF3F684C8EAD279ED51AB4B8981 /* UnderLineTextFieldDelegate.swift */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE552ECA7A2EB4C2449809E6536931 /* SessionManager.swift */; };
-		B111DE11D0C1E7CEE2FAB2FAE370110B /* UnderLineTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E44E3B9BCD61FC36BBFF9EDB9C6DE28 /* UnderLineTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1888704497BAC2837E69C2090445A85 /* UnderLineTextFieldErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D8779A09D3CC07B51B8FB4FAA30C6 /* UnderLineTextFieldErrors.swift */; };
-		B1C44BD8D088C27AB55E0F142E0CC1A6 /* CollapsibleTableSectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5CB68B0D4DD9A2FBE69B83EC3552A9 /* CollapsibleTableSectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3EBA590A19D571ADC383123B1C9D8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCB73D0AFA2DABA112A2B438882FB6 /* MultipartFormData.swift */; };
-		B6845F2D4A64530114F20D797AF1C105 /* UnderLineTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F7850233C52EE5072D25CE764256AE /* UnderLineTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B7F8BF072FD0C12E145F866C36208E /* Validation.swift */; };
-		BDD779CE27095F9D5A74D0E17FA4F1AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010FBFACD3AE07F93CE08671F127598C /* ParameterEncoding.swift */; };
-		BF0C4DA626216B1E1EFDC8DE5549AAD3 /* UnderLineTextFieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB1528E58D1FF059D0D2B0C5B9A048 /* UnderLineTextFieldStatus.swift */; };
-		C26499635816D6857C2A6D00AA2C052E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		C26C8D71A847A1E1E0443EC5B3C47055 /* SBPickerSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEB364F72BA6EEE34C609E36BBEA67 /* SBPickerSelector.m */; };
-		C58488F7BFD83CE3E5E22F28FE55D0BF /* UnderLineTextFieldContentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F39BFE6D2BFC1ED39A1CD2324111BD /* UnderLineTextFieldContentStatus.swift */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CD465CC431F10CC4CD50D4C333CA8 /* Response.swift */; };
-		CE0455B70BED64C0C71464B6D416521F /* SBPickerSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2174E1BE305270C91163A935AC1BC2 /* SBPickerSelector.xib */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19715150A27FF7AC690C9D783EEF5F /* Notifications.swift */; };
-		F278DF313EC8B54BEC595A80DBF61443 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA77F447CFA66FFB2CAE1F85A7B4A2F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2C3EAD0FECC5B0A73F06DF856A4C4D0 /* SBPickerSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC28560C1F21CC6CD12F1A87BE728C9 /* SBPickerSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F2947BBD07B394094D12B8B61618D /* ResponseSerialization.swift */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F963136C2949BA55DA62AF21031E1CD /* Alamofire.swift */; };
-		FF7AF665A92BD74EF29ED689E5B5A785 /* CollapsibleTableSectionViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D22E9831ED9310CC6AC80EBFD86D2 /* CollapsibleTableSectionViewController-dummy.m */; };
+		04CB752C0008D567356A070714FC2FAA /* Pods-Orarul Tau-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFB73FC0909D4E1AA9741B3093E31B1 /* Pods-Orarul Tau-dummy.m */; };
+		109B0FA5FC442E12E30CB5EAC748A3F4 /* Pods-Orarul Tau-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417475FBF14C53D478455F40AB43650D /* Pods-Orarul Tau-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECC3508E35939D16F489A6E49B28BE5 /* Timeline.swift */; };
+		1386B7919984CD0B4139F4BFCD5A3554 /* SBPickerSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939333E53C6ECD9D1AB950DDFF3AF7B6 /* SBPickerSelector.xib */; };
+		149C95327F02AF8A21FC96702E8D5659 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9C675C473F656DF72FDD1788C90951 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBCF27F59B85AF47549F05BE49DA70A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307EAD19E8959347F2E3ACA88FD68B7C /* FoldingCell-dummy.m */; };
+		1DFFD5E428142262040EC87152D21AE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2157585C411B7C33C108E04F8BF582A1 /* UnderLineTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F531302D5D8950DDC4C17C73C614C3F0 /* UnderLineTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A943D5B5D347F3EEB0077725168692 /* UnderLineTextFieldContentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311B3E6FE3CF350C5C6BA464930A715 /* UnderLineTextFieldContentStatus.swift */; };
+		248B3DF924F10DC8DE7CC5ED656ADD54 /* UnderLineTextFieldStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082463C935AC2A209E1942BA8E9452AC /* UnderLineTextFieldStatus.swift */; };
+		2F78C873FA635AB6A71E02632ED04735 /* UnderLineTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8DC56E245C475D90E9E61C467F5156 /* UnderLineTextFieldDelegate.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A0FD5D7DEF00FB738649DAACAAB469 /* TaskDelegate.swift */; };
+		3A0B22C391D05595F56A1047F6C1C3DF /* UnderLineTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A108E5B4AB68B747156C3E2E3F6B17 /* UnderLineTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4342E6BBFC2A024354F6FFEFFB480C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		43FE5C5E2BE72CCBCBEC85D0458B658E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4485A2D93B6CE57DDBF97CB51C98A4E9 /* UIAnimatableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69479EC30BC8AE529DE6B8A35181D795 /* UIAnimatableLabel.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B68BBD98C4095D72647C4292898AEC /* Request.swift */; };
+		6061C39372AFA32348FB622AC1E59D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758ADAF8F03254F733823E728CE85555 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C26C281BE00EDF94A234662A31DA92 /* ServerTrustPolicy.swift */; };
+		631F1E054B30C41A29E7F71369C0D01B /* UnderLineTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472BC7C276ECE3D3439AF784AE5DB003 /* UnderLineTextField-dummy.m */; };
+		632711812AA29AC14A95315FAC334B1D /* SBPickerSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A96204D70BF8579670E8807CEBE6B /* SBPickerSelector-dummy.m */; };
+		67349CD9E0A377BF63D299C58ABD8EEE /* Extera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E13D4C2BDA226E2E97C91860E458AF /* Extera.xcassets */; };
+		68B6ACEF0F511512AD138B739F3839B6 /* UnderLineTextFieldValidateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994A8FB3324F2CAC1EF69B49D576EBD /* UnderLineTextFieldValidateType.swift */; };
+		68DB7C3B5153E081D28DAF32F11C9E58 /* SBPickerSelector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8919A152CECC056CB89809245E407F3D /* SBPickerSelector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E3E3F239A57057976CA5C4BFADEBC4 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAA11B031C5E3BA051719D12F3EAF52 /* Result.swift */; };
+		84DA8E8BBF756010A3240E4C0F235D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF355C280CC500F49E9F9FC09D41BED /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD92AE9A95E7052FAD64A0343CDD70F /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EA9D1EF566CCBFC6933AC9B6B2061E /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F4203858F5B4F2E2E5DF92CBFD6F /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DD9B1976B9C9BBA5D05FBD5FDE8F3F /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1256C3443BFD0F425D1A5A40A0BA844 /* Validation.swift */; };
+		BD53006373C11D1683876845CE801472 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA625E9B3AB48E2C7E671D2C763962D9 /* SwiftyJSON-dummy.m */; };
+		BD5D8E68A86995FC4702E3E68A285160 /* SBPickerSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B628123E8C30E77F90F0A10479C52C /* SBPickerSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104043EAC69DBAC2C1E3E597DA53C0D5 /* ParameterEncoding.swift */; };
+		C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0547FADA51B6F6FF2E9055B3B7C11025 /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2F3D63B9DC5972E4881E953543203 /* Response.swift */; };
+		D1C51265A6B67FC384B4D582C19948E6 /* UnderLineTextFieldErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D5044ADDE5E8805FF5D756FA8D3455 /* UnderLineTextFieldErrors.swift */; };
+		DEA5643CBD926D0B893D69D938B82193 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8ABF3230D326AD1BF1BDDC809BC047 /* SwiftyJSON.swift */; };
+		DFFE26EB4DB258E495F80BB1BB80658A /* UnderLineTextFieldFocusStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F43D48C4C61BF8CD1881993D5295CA7 /* UnderLineTextFieldFocusStatus.swift */; };
+		EBF9A46D88DA21743F29366ADF1154CD /* VerticalAlignmentTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A730F9DDB2E64668490485BA8277F07 /* VerticalAlignmentTextLayer.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214A32F75B4BBD912B7CEECB0DB85B1 /* Notifications.swift */; };
+		F49A6EEDCA1094D7B69DC165A55FD77C /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4730E0094BE7AF0E2EA2B4556D6A9723 /* FoldingCell.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B940D9C108E6E2FC5338CD151895BC /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4424D932F78DAD81BB6E269BDD1FA76 /* Alamofire.swift */; };
+		F9F4E9D0AB8540AEE1F8BA5EBF25649E /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA221652DB878797D852C2DADEEC48CA /* UnderLineTextField.swift */; };
+		FC1F8669E54A43D33D507748CD159E6B /* SBPickerSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CD7A1D471C8A84F6F27049E6E7AD5 /* SBPickerSelector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2DEFE313DFAABE682E74AE8A6E6ADDE1 /* PBXContainerItemProxy */ = {
+		0359C87E447314486EC9EAA11889F6AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A55696F272FF688344C4A01C6393E2F7;
-			remoteInfo = CollapsibleTableSectionViewController;
-		};
-		7FC473BEA972E5EB14E7B7D017C7C160 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10689F34F6113131DA5DF039DD61A9A9;
-			remoteInfo = SwiftyJSON;
-		};
-		93545E0812037B274BF888CEC880AF1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E7D5860EBBEFE51D0F33CA0C9C6D3CBD;
-			remoteInfo = SBPickerSelector;
-		};
-		A2B08D4C68CEB2ADE980A426816F0526 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0FD5165A1C577A1F8B3EDCA93CC8315;
+			remoteGlobalIDString = 0467609536BE1FC48FEEA06CAF80D8DE;
 			remoteInfo = UnderLineTextField;
 		};
-		D5EA88E53B23D43F5B9EC5936E67009E /* PBXContainerItemProxy */ = {
+		791FFA4A3DEAEF427D33FFCE043EF2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F8D509EC397E42253C73FE7EF3543D;
+			remoteInfo = SBPickerSelector;
+		};
+		9A1FDEBCC55F700C32A7FE4DC639DB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B626E472969D6F87698AF0041EAAFC38;
+			remoteInfo = FoldingCell;
+		};
+		AE51E525D585059D681E67634522BD99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		AECFDD9F86ED9C29E5A3810FF9C83AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593608D2DFA8834AB8FF7A83B1DD22D9;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010FBFACD3AE07F93CE08671F127598C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		040E7E9DE3317F7158A0EE519D65B8B6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		04C4E885CEA7B16DE637C46135A24954 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05B3ED7F455F5E8132C3A5D5E095B376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13BF8C8223753BA0025D1D11F388E87E /* SBPickerSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SBPickerSelector.modulemap; sourceTree = "<group>"; };
-		18CEB364F72BA6EEE34C609E36BBEA67 /* SBPickerSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBPickerSelector.m; path = SBPickerSelector/Source/SBPickerSelector.m; sourceTree = "<group>"; };
-		1BF87F082B8B6D6E04E9E8AAEEC786F2 /* CollapsibleTableSectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTableSectionViewController.xcconfig; sourceTree = "<group>"; };
-		1CB1F19E3DDFE854ED9E11591E6E9CB0 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		1D7291FE265F69E90D60CB7E7FF4F960 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		23B456625EE896ABAA60FAAD8F4986E4 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		25ABC7250E6148B9C405FF984934F8CF /* UnderLineTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UnderLineTextField.modulemap; sourceTree = "<group>"; };
-		26FAC07F51F7901B98CB24A324DB1424 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		2C2174E1BE305270C91163A935AC1BC2 /* SBPickerSelector.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SBPickerSelector.xib; path = SBPickerSelector/Resources/SBPickerSelector.xib; sourceTree = "<group>"; };
-		348AE757EF499EA50E89B6E4471F7E3E /* CollapsibleTableSectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-prefix.pch"; sourceTree = "<group>"; };
-		34A52E068A5C719422C9E70A3F010B9D /* CollapsibleTableSectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CollapsibleTableSectionViewController.framework; path = CollapsibleTableSectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		394F6DA37D154C51A320D5619CE407B2 /* Pods-Orarul Tau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Orarul Tau.debug.xcconfig"; sourceTree = "<group>"; };
-		3A5CB68B0D4DD9A2FBE69B83EC3552A9 /* CollapsibleTableSectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableSectionViewController-umbrella.h"; sourceTree = "<group>"; };
-		3B9A195CA35D70C38449C9E0195BF96A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		3C1F6B69A07C942EF9029731D058E36C /* Pods-Orarul Tau.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Orarul Tau.modulemap"; sourceTree = "<group>"; };
-		3D75A20DA6E1ED67F4218BD62F840842 /* SBPickerSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBPickerSelector-prefix.pch"; sourceTree = "<group>"; };
-		3F963136C2949BA55DA62AF21031E1CD /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		40F39BFE6D2BFC1ED39A1CD2324111BD /* UnderLineTextFieldContentStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldContentStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldContentStatus.swift"; sourceTree = "<group>"; };
-		41FC5DA9B78F5CBBF5C0158F38AB9B32 /* Pods-Orarul Tau-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Orarul Tau-resources.sh"; sourceTree = "<group>"; };
-		48F6CEBFDB4EEBBC369F00C8E772A4BD /* UnderLineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextField.swift; path = Source/UnderLineTextField/UnderLineTextField.swift; sourceTree = "<group>"; };
-		49E8B4A9B065C97C215E871E917B6686 /* Pods_Orarul_Tau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Orarul_Tau.framework; path = "Pods-Orarul Tau.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF56C4CB6912BE932B878BCD18083B2 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		4BEE552ECA7A2EB4C2449809E6536931 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		51F9FD062CABBD3D099FE41C7568134A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		5399F3157ECFD1EDFEDE849C7F8E35B7 /* Pods-Orarul Tau-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Orarul Tau-acknowledgements.markdown"; sourceTree = "<group>"; };
-		549DBEFAB4702483346FBC652C0DE127 /* Pods-Orarul Tau-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Orarul Tau-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B0E17115C59E9594B088ED00600496D /* SBPickerSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBPickerSelector-umbrella.h"; sourceTree = "<group>"; };
-		60232838C9EB12C2DE01527375ABAA16 /* Extera.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Extera.xcassets; path = "Source/UnderLineTextField/Supporting Files/Extera.xcassets"; sourceTree = "<group>"; };
-		616DA32913DACB94E8F1329CBAEC74DE /* VerticalAlignmentTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalAlignmentTextLayer.swift; path = Source/UnderLineTextField/VerticalAlignmentTextLayer.swift; sourceTree = "<group>"; };
-		688E33711D6A645EA740038EA3FE286D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		68B642D34133716F977279AD39FF746F /* UnderLineTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnderLineTextField-dummy.m"; sourceTree = "<group>"; };
-		712D8779A09D3CC07B51B8FB4FAA30C6 /* UnderLineTextFieldErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldErrors.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldErrors.swift"; sourceTree = "<group>"; };
-		7440BFB7D7F7F86528B5D5F23F117181 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		75213A3FD630241780B13A48D690DB05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B3EED5A0DA125F4BCF20D09ABB36D5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		79F7850233C52EE5072D25CE764256AE /* UnderLineTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnderLineTextField.h; path = "Source/UnderLineTextField/Supporting Files/UnderLineTextField.h"; sourceTree = "<group>"; };
-		851F2947BBD07B394094D12B8B61618D /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		87B7F8BF072FD0C12E145F866C36208E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		8A046075BA8FFF561912544898565F4C /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableViewHeader.swift; path = CollapsibleTableSectionViewController/CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
-		8CE32218B9C84E2A767260D7157125DC /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		8D111AF3F684C8EAD279ED51AB4B8981 /* UnderLineTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldDelegate.swift; path = Source/UnderLineTextField/Protocols/UnderLineTextFieldDelegate.swift; sourceTree = "<group>"; };
-		8E44E3B9BCD61FC36BBFF9EDB9C6DE28 /* UnderLineTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnderLineTextField-umbrella.h"; sourceTree = "<group>"; };
-		90163CCEC3157ED896BC729FAFEB3EB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90DB1294548B01BD9D4DFCC9EB82A2AF /* CollapsibleTableSectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CollapsibleTableSectionViewController.modulemap; sourceTree = "<group>"; };
+		0547FADA51B6F6FF2E9055B3B7C11025 /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
+		082463C935AC2A209E1942BA8E9452AC /* UnderLineTextFieldStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldStatus.swift"; sourceTree = "<group>"; };
+		09A6923D215CD4E5B6F44444EF604F67 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		104043EAC69DBAC2C1E3E597DA53C0D5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		152D6E76BC9F8C3AC135000264EF87C9 /* SBPickerSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBPickerSelector-prefix.pch"; sourceTree = "<group>"; };
+		16C26C281BE00EDF94A234662A31DA92 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		17D5044ADDE5E8805FF5D756FA8D3455 /* UnderLineTextFieldErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldErrors.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldErrors.swift"; sourceTree = "<group>"; };
+		18D02031506D4EA152F9BD71F5F36417 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		1994A8FB3324F2CAC1EF69B49D576EBD /* UnderLineTextFieldValidateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldValidateType.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldValidateType.swift"; sourceTree = "<group>"; };
+		1D91F4203858F5B4F2E2E5DF92CBFD6F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		27DDFA9918E53FBCA01CBD1CDB3C0604 /* Pods-Orarul Tau.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Orarul Tau.modulemap"; sourceTree = "<group>"; };
+		2CAA11B031C5E3BA051719D12F3EAF52 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		307EAD19E8959347F2E3ACA88FD68B7C /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
+		33F3CFB1B0A09BC7B56C1DE21AF3FBBD /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
+		3CBCF27F59B85AF47549F05BE49DA70A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		3CC91857A6DD2508DE870DF9ECD1A208 /* UnderLineTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnderLineTextField.modulemap; sourceTree = "<group>"; };
+		417475FBF14C53D478455F40AB43650D /* Pods-Orarul Tau-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Orarul Tau-umbrella.h"; sourceTree = "<group>"; };
+		472BC7C276ECE3D3439AF784AE5DB003 /* UnderLineTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnderLineTextField-dummy.m"; sourceTree = "<group>"; };
+		4730E0094BE7AF0E2EA2B4556D6A9723 /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
+		4A5CD7A1D471C8A84F6F27049E6E7AD5 /* SBPickerSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBPickerSelector.m; path = SBPickerSelector/Source/SBPickerSelector.m; sourceTree = "<group>"; };
+		4A730F9DDB2E64668490485BA8277F07 /* VerticalAlignmentTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalAlignmentTextLayer.swift; path = Source/UnderLineTextField/VerticalAlignmentTextLayer.swift; sourceTree = "<group>"; };
+		4DFB73FC0909D4E1AA9741B3093E31B1 /* Pods-Orarul Tau-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Orarul Tau-dummy.m"; sourceTree = "<group>"; };
+		51BB2864CE5A096D2F26526EEA934841 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52705C5AB6DFE5BA7AF796CFA38F9FAC /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
+		5F1C7F5EA1A55AE9FE8A483D2B4BECEF /* SBPickerSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SBPickerSelector.framework; path = SBPickerSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F43D48C4C61BF8CD1881993D5295CA7 /* UnderLineTextFieldFocusStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldFocusStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldFocusStatus.swift"; sourceTree = "<group>"; };
+		65FC3C6A705772218C21EF4FAE4965AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69479EC30BC8AE529DE6B8A35181D795 /* UIAnimatableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAnimatableLabel.swift; path = Source/UnderLineTextField/UIAnimatableLabel.swift; sourceTree = "<group>"; };
+		6B0E88C6EC02080CBC90D8D5EECF4654 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		6EB2F3D63B9DC5972E4881E953543203 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		72D5598D42E08486E401595A96534520 /* Pods-Orarul Tau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Orarul Tau.debug.xcconfig"; sourceTree = "<group>"; };
+		73A108E5B4AB68B747156C3E2E3F6B17 /* UnderLineTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnderLineTextField.h; path = "Source/UnderLineTextField/Supporting Files/UnderLineTextField.h"; sourceTree = "<group>"; };
+		758ADAF8F03254F733823E728CE85555 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		80B68BBD98C4095D72647C4292898AEC /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		80C98006C4495CCF6A95D44687D790B5 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
+		8343DEC21EBCB14FA3E8C1208E484807 /* SBPickerSelector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SBPickerSelector.modulemap; sourceTree = "<group>"; };
+		84FCE47B954FA6986DDEB103E18E0C35 /* UnderLineTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnderLineTextField.xcconfig; sourceTree = "<group>"; };
+		8919A152CECC056CB89809245E407F3D /* SBPickerSelector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBPickerSelector-umbrella.h"; sourceTree = "<group>"; };
+		8F64335D614A8B9FDA161876DA797829 /* Pods-Orarul Tau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Orarul Tau.release.xcconfig"; sourceTree = "<group>"; };
+		8F9C675C473F656DF72FDD1788C90951 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9014FACFD5FEADCD05E0F8C62707414A /* Pods-Orarul Tau-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Orarul Tau-acknowledgements.plist"; sourceTree = "<group>"; };
+		939333E53C6ECD9D1AB950DDFF3AF7B6 /* SBPickerSelector.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SBPickerSelector.xib; path = SBPickerSelector/Resources/SBPickerSelector.xib; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94CD6031A0960B8C1CD109E5BD00833A /* SBPickerSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBPickerSelector-dummy.m"; sourceTree = "<group>"; };
-		956D22E9831ED9310CC6AC80EBFD86D2 /* CollapsibleTableSectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTableSectionViewController-dummy.m"; sourceTree = "<group>"; };
-		95F2C33FDF6A568B7813E35D9D86CAF3 /* UnderLineTextFieldValidateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldValidateType.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldValidateType.swift"; sourceTree = "<group>"; };
-		96924F09EF3D7B8264267540744D1AD4 /* Pods-Orarul Tau-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Orarul Tau-dummy.m"; sourceTree = "<group>"; };
-		9728631592367DB7942234F45CCF98B5 /* UnderLineTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnderLineTextField.framework; path = UnderLineTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99DCD18A689398BE91293CB43AF38D9A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9FA77F447CFA66FFB2CAE1F85A7B4A2F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		A48D013E2FDB6DA5DD0C93A3B97797A3 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		A5EB1528E58D1FF059D0D2B0C5B9A048 /* UnderLineTextFieldStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldStatus.swift"; sourceTree = "<group>"; };
-		A7003C08ED554918C5DFD4239E76AC86 /* CollapsibleTableSectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollapsibleTableSectionViewController.swift; path = CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.swift; sourceTree = "<group>"; };
-		A92AED07744E90FD0000C3CA9FAD9198 /* SBPickerSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SBPickerSelector.framework; path = SBPickerSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC28560C1F21CC6CD12F1A87BE728C9 /* SBPickerSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBPickerSelector.h; path = SBPickerSelector/Source/SBPickerSelector.h; sourceTree = "<group>"; };
-		AF19715150A27FF7AC690C9D783EEF5F /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		AFDB25A6EF16CE0DCA15BE849E863EFA /* UnderLineTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnderLineTextField-prefix.pch"; sourceTree = "<group>"; };
-		B0ED63EFC449B0C8440E2241F52B349B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BCACE73BB241009470AF52B217F742D8 /* UIAnimatableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAnimatableLabel.swift; path = Source/UnderLineTextField/UIAnimatableLabel.swift; sourceTree = "<group>"; };
-		C2912A41968D4348714162633C10F1CE /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		C400E1410F7918E2C011076A48864C53 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		C5A846B7D1FE894A5CEC3CB38AB6625F /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		D0DCB73D0AFA2DABA112A2B438882FB6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		D1E051C7832F5CEDADDD2B77AF863778 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		D82D10F31A5053801A58D27E026C1B03 /* SBPickerSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBPickerSelector.xcconfig; sourceTree = "<group>"; };
-		D8586EF7E13E1071F821FC25F059E3A1 /* UnderLineTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnderLineTextField.xcconfig; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6B819EAD4264D1FD855E93FDE8D1CE6 /* UnderLineTextFieldFocusStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldFocusStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldFocusStatus.swift"; sourceTree = "<group>"; };
-		EC810E4DC878CE00699B98930AEC93D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4E3B330C5EA8FBC6C2B90AAD9637D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4F07F7C05C57593E42028ADA275E1E5 /* Pods-Orarul Tau-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Orarul Tau-umbrella.h"; sourceTree = "<group>"; };
-		F564E78D3274BD2FB89FF67BFF1B1119 /* Pods-Orarul Tau-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Orarul Tau-frameworks.sh"; sourceTree = "<group>"; };
-		F9588B36B20D85D4A3AF1A1289C1104E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		F9B9E093CEDD62602F410ED7CC370BED /* Pods-Orarul Tau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Orarul Tau.release.xcconfig"; sourceTree = "<group>"; };
-		FB7CF91AE7C4C432B0A501308B526D34 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0CD465CC431F10CC4CD50D4C333CA8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		9B12A2D87F34F354AF0A7620D380512C /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		9B8DC56E245C475D90E9E61C467F5156 /* UnderLineTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldDelegate.swift; path = Source/UnderLineTextField/Protocols/UnderLineTextFieldDelegate.swift; sourceTree = "<group>"; };
+		9D1BDC1AA3DD067478D6FB6A9EF27BF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECC3508E35939D16F489A6E49B28BE5 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		9F0150BCBA64C5DF642DB27A1BA2C57A /* UnderLineTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnderLineTextField.framework; path = UnderLineTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D220387E038EE55930D7DF8F844378 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		A0E3E3F239A57057976CA5C4BFADEBC4 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		A214A32F75B4BBD912B7CEECB0DB85B1 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A311B3E6FE3CF350C5C6BA464930A715 /* UnderLineTextFieldContentStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextFieldContentStatus.swift; path = "Source/UnderLineTextField/Structs and Enums/UnderLineTextFieldContentStatus.swift"; sourceTree = "<group>"; };
+		A38DCB91D10D16F6C92567C89DFA144E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4424D932F78DAD81BB6E269BDD1FA76 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A45113828B4AE39BB0E669C0EB68FEA3 /* Pods_Orarul_Tau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Orarul_Tau.framework; path = "Pods-Orarul Tau.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D6DC39EBBBCF4CC8D23060937DF3D3 /* Pods-Orarul Tau-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Orarul Tau-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA221652DB878797D852C2DADEEC48CA /* UnderLineTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnderLineTextField.swift; path = Source/UnderLineTextField/UnderLineTextField.swift; sourceTree = "<group>"; };
+		AA625E9B3AB48E2C7E671D2C763962D9 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		AA7AB42F8B8FFA8E61DE991C32F1A118 /* Pods-Orarul Tau-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Orarul Tau-resources.sh"; sourceTree = "<group>"; };
+		ABAF20A53B792B9EA10C7BE1FED61F79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8ABF3230D326AD1BF1BDDC809BC047 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		B2A858C7F5CD2D3066482D66B30D2576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD92AE9A95E7052FAD64A0343CDD70F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		BCF355C280CC500F49E9F9FC09D41BED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		BEECB878B193733E6379123DEF067B22 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		C0146DAA4A162997E571D0F4204F2494 /* SBPickerSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBPickerSelector.xcconfig; sourceTree = "<group>"; };
+		C4DD9B1976B9C9BBA5D05FBD5FDE8F3F /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		C7EA9D1EF566CCBFC6933AC9B6B2061E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C837BD5C6B909B8E9BEABF86803CC38D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C8B940D9C108E6E2FC5338CD151895BC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		CB6E3ABF5AFD0FE4901369D55939684B /* Pods-Orarul Tau-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Orarul Tau-frameworks.sh"; sourceTree = "<group>"; };
+		D1256C3443BFD0F425D1A5A40A0BA844 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D2A0FD5D7DEF00FB738649DAACAAB469 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		D2E13D4C2BDA226E2E97C91860E458AF /* Extera.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Extera.xcassets; path = "Source/UnderLineTextField/Supporting Files/Extera.xcassets"; sourceTree = "<group>"; };
+		D5B628123E8C30E77F90F0A10479C52C /* SBPickerSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBPickerSelector.h; path = SBPickerSelector/Source/SBPickerSelector.h; sourceTree = "<group>"; };
+		D660800855FC0A01A40C7FEDEC79E3FD /* UnderLineTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnderLineTextField-prefix.pch"; sourceTree = "<group>"; };
+		D7CF01226223379F3EE611603CD28181 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4A96204D70BF8579670E8807CEBE6B /* SBPickerSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBPickerSelector-dummy.m"; sourceTree = "<group>"; };
+		F302C0BE992AFBC4C527883E52AD89CD /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F531302D5D8950DDC4C17C73C614C3F0 /* UnderLineTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnderLineTextField-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48746E7EB54D5D2AAF51DF1A8B832930 /* Frameworks */ = {
+		481C4A42D2AECB3A9E3D1899D2A0BECE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3EBA590A19D571ADC383123B1C9D8E9 /* Foundation.framework in Frameworks */,
-				64BE278BD5CF36A23372D3A518FC2C3B /* UIKit.framework in Frameworks */,
+				6061C39372AFA32348FB622AC1E59D8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AFA7B753CC97C043B894144EA959F4 /* Frameworks */ = {
+		4DB7D0D56107AEB73B9C575B53DA46F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9998ABA9E7F38F608EAC9F589837915F /* Foundation.framework in Frameworks */,
+				84DA8E8BBF756010A3240E4C0F235D4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,310 +207,317 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0C9435D7221413D1665EC330006E3AE /* Frameworks */ = {
+		9B2434C7A9B4DFBB40C968A1656A30E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B71FC8064B77C0243B4AD0A7FF0112 /* Foundation.framework in Frameworks */,
+				43FE5C5E2BE72CCBCBEC85D0458B658E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B15A0848A7A27642AD624AB228CE25F2 /* Frameworks */ = {
+		BF49A8803B8A50FE08F043CC8E301870 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD779CE27095F9D5A74D0E17FA4F1AA /* Foundation.framework in Frameworks */,
+				1DFFD5E428142262040EC87152D21AE0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE8253C055B37A59B358AD19A21DF71F /* Frameworks */ = {
+		C0339062662E9511D6139E58270986C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C26499635816D6857C2A6D00AA2C052E /* Foundation.framework in Frameworks */,
+				4342E6BBFC2A024354F6FFEFFB480C83 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23941A05FF45A55D07A47E744EF56C58 /* Support Files */ = {
+		1086DD222F755B48FF10FB59D3C2F93C /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				90163CCEC3157ED896BC729FAFEB3EB7 /* Info.plist */,
-				13BF8C8223753BA0025D1D11F388E87E /* SBPickerSelector.modulemap */,
-				D82D10F31A5053801A58D27E026C1B03 /* SBPickerSelector.xcconfig */,
-				94CD6031A0960B8C1CD109E5BD00833A /* SBPickerSelector-dummy.m */,
-				3D75A20DA6E1ED67F4218BD62F840842 /* SBPickerSelector-prefix.pch */,
-				5B0E17115C59E9594B088ED00600496D /* SBPickerSelector-umbrella.h */,
+				AE8ABF3230D326AD1BF1BDDC809BC047 /* SwiftyJSON.swift */,
+				2E1D46990F3601123B8C09431B50F667 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SBPickerSelector";
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		37354DB2AB8209AA0D8D6187264775E5 /* Pods */ = {
+		14762D3CCB2CBF3E8C576E66828AD8D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC9B9E5C1F724D236C62926430F52F62 /* Alamofire */,
-				BFB3AF8556A7F32309FA840B6C4DA7DD /* CollapsibleTableSectionViewController */,
-				686C001B30013D6691FF99053D635891 /* SBPickerSelector */,
-				9A61BB9AC2DE962630FC9D6FB5B90E20 /* SwiftyJSON */,
-				A033A09A25F865375DE38C9433881DE9 /* UnderLineTextField */,
+				7F82B6CFCDB4E43BAC2FF9DA5EE2FF30 /* Alamofire */,
+				4E2831351701485BB084B4760F472E0A /* FoldingCell */,
+				7AD8B58D204208B27DC006B4C18DD986 /* SBPickerSelector */,
+				1086DD222F755B48FF10FB59D3C2F93C /* SwiftyJSON */,
+				81D86B86186224226AEF3D992FB8374B /* UnderLineTextField */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3A992166F792BFA05435C7FE5C0BDCD2 /* Products */ = {
+		22EA7A49B9B387621536D0B85B2EEDC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FB7CF91AE7C4C432B0A501308B526D34 /* Alamofire.framework */,
-				34A52E068A5C719422C9E70A3F010B9D /* CollapsibleTableSectionViewController.framework */,
-				49E8B4A9B065C97C215E871E917B6686 /* Pods_Orarul_Tau.framework */,
-				A92AED07744E90FD0000C3CA9FAD9198 /* SBPickerSelector.framework */,
-				040E7E9DE3317F7158A0EE519D65B8B6 /* SwiftyJSON.framework */,
-				9728631592367DB7942234F45CCF98B5 /* UnderLineTextField.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4D2105A72A6E8B696DF3B7F28EDC238C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				89BD592B46FEDD62B267E8349A90B19F /* Pods-Orarul Tau */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5766B556C2716880AD8F1C5F3E0F1E0A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2C2174E1BE305270C91163A935AC1BC2 /* SBPickerSelector.xib */,
+				D2E13D4C2BDA226E2E97C91860E458AF /* Extera.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		5C4EC00EF0AE7486C7890910AA4D23B2 /* Support Files */ = {
+		29630D48795DA9667B30D38E58D33D41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				04C4E885CEA7B16DE637C46135A24954 /* Info.plist */,
-				25ABC7250E6148B9C405FF984934F8CF /* UnderLineTextField.modulemap */,
-				D8586EF7E13E1071F821FC25F059E3A1 /* UnderLineTextField.xcconfig */,
-				68B642D34133716F977279AD39FF746F /* UnderLineTextField-dummy.m */,
-				AFDB25A6EF16CE0DCA15BE849E863EFA /* UnderLineTextField-prefix.pch */,
-				8E44E3B9BCD61FC36BBFF9EDB9C6DE28 /* UnderLineTextField-umbrella.h */,
+				18D02031506D4EA152F9BD71F5F36417 /* Alamofire.modulemap */,
+				A0D220387E038EE55930D7DF8F844378 /* Alamofire.xcconfig */,
+				C7EA9D1EF566CCBFC6933AC9B6B2061E /* Alamofire-dummy.m */,
+				C837BD5C6B909B8E9BEABF86803CC38D /* Alamofire-prefix.pch */,
+				3CBCF27F59B85AF47549F05BE49DA70A /* Alamofire-umbrella.h */,
+				B2A858C7F5CD2D3066482D66B30D2576 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/UnderLineTextField";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		686C001B30013D6691FF99053D635891 /* SBPickerSelector */ = {
+		29CBFAE169CA1DFA3663E7BE2441712D /* Pods-Orarul Tau */ = {
 			isa = PBXGroup;
 			children = (
-				ABC28560C1F21CC6CD12F1A87BE728C9 /* SBPickerSelector.h */,
-				18CEB364F72BA6EEE34C609E36BBEA67 /* SBPickerSelector.m */,
-				5766B556C2716880AD8F1C5F3E0F1E0A /* Resources */,
-				23941A05FF45A55D07A47E744EF56C58 /* Support Files */,
+				D7CF01226223379F3EE611603CD28181 /* Info.plist */,
+				27DDFA9918E53FBCA01CBD1CDB3C0604 /* Pods-Orarul Tau.modulemap */,
+				A6D6DC39EBBBCF4CC8D23060937DF3D3 /* Pods-Orarul Tau-acknowledgements.markdown */,
+				9014FACFD5FEADCD05E0F8C62707414A /* Pods-Orarul Tau-acknowledgements.plist */,
+				4DFB73FC0909D4E1AA9741B3093E31B1 /* Pods-Orarul Tau-dummy.m */,
+				CB6E3ABF5AFD0FE4901369D55939684B /* Pods-Orarul Tau-frameworks.sh */,
+				AA7AB42F8B8FFA8E61DE991C32F1A118 /* Pods-Orarul Tau-resources.sh */,
+				417475FBF14C53D478455F40AB43650D /* Pods-Orarul Tau-umbrella.h */,
+				72D5598D42E08486E401595A96534520 /* Pods-Orarul Tau.debug.xcconfig */,
+				8F64335D614A8B9FDA161876DA797829 /* Pods-Orarul Tau.release.xcconfig */,
 			);
-			name = SBPickerSelector;
-			path = SBPickerSelector;
+			name = "Pods-Orarul Tau";
+			path = "Target Support Files/Pods-Orarul Tau";
 			sourceTree = "<group>";
 		};
-		68886E59EF1C468DE3EA80FE352E56E1 /* Support Files */ = {
+		2E1D46990F3601123B8C09431B50F667 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				05B3ED7F455F5E8132C3A5D5E095B376 /* Info.plist */,
-				23B456625EE896ABAA60FAAD8F4986E4 /* SwiftyJSON.modulemap */,
-				C2912A41968D4348714162633C10F1CE /* SwiftyJSON.xcconfig */,
-				C5A846B7D1FE894A5CEC3CB38AB6625F /* SwiftyJSON-dummy.m */,
-				8CE32218B9C84E2A767260D7157125DC /* SwiftyJSON-prefix.pch */,
-				9FA77F447CFA66FFB2CAE1F85A7B4A2F /* SwiftyJSON-umbrella.h */,
+				65FC3C6A705772218C21EF4FAE4965AD /* Info.plist */,
+				9B12A2D87F34F354AF0A7620D380512C /* SwiftyJSON.modulemap */,
+				6B0E88C6EC02080CBC90D8D5EECF4654 /* SwiftyJSON.xcconfig */,
+				AA625E9B3AB48E2C7E671D2C763962D9 /* SwiftyJSON-dummy.m */,
+				BEECB878B193733E6379123DEF067B22 /* SwiftyJSON-prefix.pch */,
+				8F9C675C473F656DF72FDD1788C90951 /* SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyJSON";
 			sourceTree = "<group>";
 		};
-		6DDD82152C1AB1E0718F95E76580063D /* Resources */ = {
+		459F957678538C8938C509C0EA64A677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60232838C9EB12C2DE01527375ABAA16 /* Extera.xcassets */,
+				A38DCB91D10D16F6C92567C89DFA144E /* Alamofire.framework */,
+				F302C0BE992AFBC4C527883E52AD89CD /* FoldingCell.framework */,
+				A45113828B4AE39BB0E669C0EB68FEA3 /* Pods_Orarul_Tau.framework */,
+				5F1C7F5EA1A55AE9FE8A483D2B4BECEF /* SBPickerSelector.framework */,
+				09A6923D215CD4E5B6F44444EF604F67 /* SwiftyJSON.framework */,
+				9F0150BCBA64C5DF642DB27A1BA2C57A /* UnderLineTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2105A72A6E8B696DF3B7F28EDC238C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29CBFAE169CA1DFA3663E7BE2441712D /* Pods-Orarul Tau */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E2831351701485BB084B4760F472E0A /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				4730E0094BE7AF0E2EA2B4556D6A9723 /* FoldingCell.swift */,
+				6B136C9614DBF60F72A0DAB3467CA340 /* Support Files */,
+			);
+			name = FoldingCell;
+			path = FoldingCell;
+			sourceTree = "<group>";
+		};
+		6847637CA16D05FD4FEBD4C41E7BDB98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				939333E53C6ECD9D1AB950DDFF3AF7B6 /* SBPickerSelector.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B136C9614DBF60F72A0DAB3467CA340 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C98006C4495CCF6A95D44687D790B5 /* FoldingCell.modulemap */,
+				52705C5AB6DFE5BA7AF796CFA38F9FAC /* FoldingCell.xcconfig */,
+				307EAD19E8959347F2E3ACA88FD68B7C /* FoldingCell-dummy.m */,
+				33F3CFB1B0A09BC7B56C1DE21AF3FBBD /* FoldingCell-prefix.pch */,
+				0547FADA51B6F6FF2E9055B3B7C11025 /* FoldingCell-umbrella.h */,
+				51BB2864CE5A096D2F26526EEA934841 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingCell";
+			sourceTree = "<group>";
+		};
+		7AD8B58D204208B27DC006B4C18DD986 /* SBPickerSelector */ = {
+			isa = PBXGroup;
+			children = (
+				D5B628123E8C30E77F90F0A10479C52C /* SBPickerSelector.h */,
+				4A5CD7A1D471C8A84F6F27049E6E7AD5 /* SBPickerSelector.m */,
+				6847637CA16D05FD4FEBD4C41E7BDB98 /* Resources */,
+				EDC2631EE31917A581FFEF4F3D270F6C /* Support Files */,
+			);
+			name = SBPickerSelector;
+			path = SBPickerSelector;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				37354DB2AB8209AA0D8D6187264775E5 /* Pods */,
-				3A992166F792BFA05435C7FE5C0BDCD2 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14762D3CCB2CBF3E8C576E66828AD8D6 /* Pods */,
+				459F957678538C8938C509C0EA64A677 /* Products */,
 				4D2105A72A6E8B696DF3B7F28EDC238C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		89BD592B46FEDD62B267E8349A90B19F /* Pods-Orarul Tau */ = {
+		7F82B6CFCDB4E43BAC2FF9DA5EE2FF30 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				EC810E4DC878CE00699B98930AEC93D0 /* Info.plist */,
-				3C1F6B69A07C942EF9029731D058E36C /* Pods-Orarul Tau.modulemap */,
-				5399F3157ECFD1EDFEDE849C7F8E35B7 /* Pods-Orarul Tau-acknowledgements.markdown */,
-				549DBEFAB4702483346FBC652C0DE127 /* Pods-Orarul Tau-acknowledgements.plist */,
-				96924F09EF3D7B8264267540744D1AD4 /* Pods-Orarul Tau-dummy.m */,
-				F564E78D3274BD2FB89FF67BFF1B1119 /* Pods-Orarul Tau-frameworks.sh */,
-				41FC5DA9B78F5CBBF5C0158F38AB9B32 /* Pods-Orarul Tau-resources.sh */,
-				F4F07F7C05C57593E42028ADA275E1E5 /* Pods-Orarul Tau-umbrella.h */,
-				394F6DA37D154C51A320D5619CE407B2 /* Pods-Orarul Tau.debug.xcconfig */,
-				F9B9E093CEDD62602F410ED7CC370BED /* Pods-Orarul Tau.release.xcconfig */,
-			);
-			name = "Pods-Orarul Tau";
-			path = "Target Support Files/Pods-Orarul Tau";
-			sourceTree = "<group>";
-		};
-		8DEB2842FD6B9E3D42D616D5A3523E52 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0ED63EFC449B0C8440E2241F52B349B /* Alamofire.modulemap */,
-				26FAC07F51F7901B98CB24A324DB1424 /* Alamofire.xcconfig */,
-				76B3EED5A0DA125F4BCF20D09ABB36D5 /* Alamofire-dummy.m */,
-				688E33711D6A645EA740038EA3FE286D /* Alamofire-prefix.pch */,
-				99DCD18A689398BE91293CB43AF38D9A /* Alamofire-umbrella.h */,
-				F4E3B330C5EA8FBC6C2B90AAD9637D32 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		9A61BB9AC2DE962630FC9D6FB5B90E20 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				C400E1410F7918E2C011076A48864C53 /* SwiftyJSON.swift */,
-				68886E59EF1C468DE3EA80FE352E56E1 /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		A033A09A25F865375DE38C9433881DE9 /* UnderLineTextField */ = {
-			isa = PBXGroup;
-			children = (
-				BCACE73BB241009470AF52B217F742D8 /* UIAnimatableLabel.swift */,
-				79F7850233C52EE5072D25CE764256AE /* UnderLineTextField.h */,
-				48F6CEBFDB4EEBBC369F00C8E772A4BD /* UnderLineTextField.swift */,
-				40F39BFE6D2BFC1ED39A1CD2324111BD /* UnderLineTextFieldContentStatus.swift */,
-				8D111AF3F684C8EAD279ED51AB4B8981 /* UnderLineTextFieldDelegate.swift */,
-				712D8779A09D3CC07B51B8FB4FAA30C6 /* UnderLineTextFieldErrors.swift */,
-				E6B819EAD4264D1FD855E93FDE8D1CE6 /* UnderLineTextFieldFocusStatus.swift */,
-				A5EB1528E58D1FF059D0D2B0C5B9A048 /* UnderLineTextFieldStatus.swift */,
-				95F2C33FDF6A568B7813E35D9D86CAF3 /* UnderLineTextFieldValidateType.swift */,
-				616DA32913DACB94E8F1329CBAEC74DE /* VerticalAlignmentTextLayer.swift */,
-				6DDD82152C1AB1E0718F95E76580063D /* Resources */,
-				5C4EC00EF0AE7486C7890910AA4D23B2 /* Support Files */,
-			);
-			name = UnderLineTextField;
-			path = UnderLineTextField;
-			sourceTree = "<group>";
-		};
-		AC9B9E5C1F724D236C62926430F52F62 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				51F9FD062CABBD3D099FE41C7568134A /* AFError.swift */,
-				3F963136C2949BA55DA62AF21031E1CD /* Alamofire.swift */,
-				D1E051C7832F5CEDADDD2B77AF863778 /* DispatchQueue+Alamofire.swift */,
-				D0DCB73D0AFA2DABA112A2B438882FB6 /* MultipartFormData.swift */,
-				7440BFB7D7F7F86528B5D5F23F117181 /* NetworkReachabilityManager.swift */,
-				AF19715150A27FF7AC690C9D783EEF5F /* Notifications.swift */,
-				010FBFACD3AE07F93CE08671F127598C /* ParameterEncoding.swift */,
-				A48D013E2FDB6DA5DD0C93A3B97797A3 /* Request.swift */,
-				FF0CD465CC431F10CC4CD50D4C333CA8 /* Response.swift */,
-				851F2947BBD07B394094D12B8B61618D /* ResponseSerialization.swift */,
-				F9588B36B20D85D4A3AF1A1289C1104E /* Result.swift */,
-				3B9A195CA35D70C38449C9E0195BF96A /* ServerTrustPolicy.swift */,
-				4AF56C4CB6912BE932B878BCD18083B2 /* SessionDelegate.swift */,
-				4BEE552ECA7A2EB4C2449809E6536931 /* SessionManager.swift */,
-				1CB1F19E3DDFE854ED9E11591E6E9CB0 /* TaskDelegate.swift */,
-				1D7291FE265F69E90D60CB7E7FF4F960 /* Timeline.swift */,
-				87B7F8BF072FD0C12E145F866C36208E /* Validation.swift */,
-				8DEB2842FD6B9E3D42D616D5A3523E52 /* Support Files */,
+				BCF355C280CC500F49E9F9FC09D41BED /* AFError.swift */,
+				A4424D932F78DAD81BB6E269BDD1FA76 /* Alamofire.swift */,
+				758ADAF8F03254F733823E728CE85555 /* DispatchQueue+Alamofire.swift */,
+				C4DD9B1976B9C9BBA5D05FBD5FDE8F3F /* MultipartFormData.swift */,
+				BBD92AE9A95E7052FAD64A0343CDD70F /* NetworkReachabilityManager.swift */,
+				A214A32F75B4BBD912B7CEECB0DB85B1 /* Notifications.swift */,
+				104043EAC69DBAC2C1E3E597DA53C0D5 /* ParameterEncoding.swift */,
+				80B68BBD98C4095D72647C4292898AEC /* Request.swift */,
+				6EB2F3D63B9DC5972E4881E953543203 /* Response.swift */,
+				C8B940D9C108E6E2FC5338CD151895BC /* ResponseSerialization.swift */,
+				2CAA11B031C5E3BA051719D12F3EAF52 /* Result.swift */,
+				16C26C281BE00EDF94A234662A31DA92 /* ServerTrustPolicy.swift */,
+				A0E3E3F239A57057976CA5C4BFADEBC4 /* SessionDelegate.swift */,
+				1D91F4203858F5B4F2E2E5DF92CBFD6F /* SessionManager.swift */,
+				D2A0FD5D7DEF00FB738649DAACAAB469 /* TaskDelegate.swift */,
+				9ECC3508E35939D16F489A6E49B28BE5 /* Timeline.swift */,
+				D1256C3443BFD0F425D1A5A40A0BA844 /* Validation.swift */,
+				29630D48795DA9667B30D38E58D33D41 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		B9719D1050019D3E6B1A31D37E9F87C5 /* Support Files */ = {
+		81D86B86186224226AEF3D992FB8374B /* UnderLineTextField */ = {
 			isa = PBXGroup;
 			children = (
-				90DB1294548B01BD9D4DFCC9EB82A2AF /* CollapsibleTableSectionViewController.modulemap */,
-				1BF87F082B8B6D6E04E9E8AAEEC786F2 /* CollapsibleTableSectionViewController.xcconfig */,
-				956D22E9831ED9310CC6AC80EBFD86D2 /* CollapsibleTableSectionViewController-dummy.m */,
-				348AE757EF499EA50E89B6E4471F7E3E /* CollapsibleTableSectionViewController-prefix.pch */,
-				3A5CB68B0D4DD9A2FBE69B83EC3552A9 /* CollapsibleTableSectionViewController-umbrella.h */,
-				75213A3FD630241780B13A48D690DB05 /* Info.plist */,
+				69479EC30BC8AE529DE6B8A35181D795 /* UIAnimatableLabel.swift */,
+				73A108E5B4AB68B747156C3E2E3F6B17 /* UnderLineTextField.h */,
+				AA221652DB878797D852C2DADEEC48CA /* UnderLineTextField.swift */,
+				A311B3E6FE3CF350C5C6BA464930A715 /* UnderLineTextFieldContentStatus.swift */,
+				9B8DC56E245C475D90E9E61C467F5156 /* UnderLineTextFieldDelegate.swift */,
+				17D5044ADDE5E8805FF5D756FA8D3455 /* UnderLineTextFieldErrors.swift */,
+				5F43D48C4C61BF8CD1881993D5295CA7 /* UnderLineTextFieldFocusStatus.swift */,
+				082463C935AC2A209E1942BA8E9452AC /* UnderLineTextFieldStatus.swift */,
+				1994A8FB3324F2CAC1EF69B49D576EBD /* UnderLineTextFieldValidateType.swift */,
+				4A730F9DDB2E64668490485BA8277F07 /* VerticalAlignmentTextLayer.swift */,
+				22EA7A49B9B387621536D0B85B2EEDC1 /* Resources */,
+				C1148579A5A1AD8063B794DCA3A62E53 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CollapsibleTableSectionViewController";
+			name = UnderLineTextField;
+			path = UnderLineTextField;
 			sourceTree = "<group>";
 		};
-		BFB3AF8556A7F32309FA840B6C4DA7DD /* CollapsibleTableSectionViewController */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7003C08ED554918C5DFD4239E76AC86 /* CollapsibleTableSectionViewController.swift */,
-				8A046075BA8FFF561912544898565F4C /* CollapsibleTableViewHeader.swift */,
-				B9719D1050019D3E6B1A31D37E9F87C5 /* Support Files */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = CollapsibleTableSectionViewController;
-			path = CollapsibleTableSectionViewController;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1148579A5A1AD8063B794DCA3A62E53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABAF20A53B792B9EA10C7BE1FED61F79 /* Info.plist */,
+				3CC91857A6DD2508DE870DF9ECD1A208 /* UnderLineTextField.modulemap */,
+				84FCE47B954FA6986DDEB103E18E0C35 /* UnderLineTextField.xcconfig */,
+				472BC7C276ECE3D3439AF784AE5DB003 /* UnderLineTextField-dummy.m */,
+				D660800855FC0A01A40C7FEDEC79E3FD /* UnderLineTextField-prefix.pch */,
+				F531302D5D8950DDC4C17C73C614C3F0 /* UnderLineTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UnderLineTextField";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDC2631EE31917A581FFEF4F3D270F6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1BDC1AA3DD067478D6FB6A9EF27BF7 /* Info.plist */,
+				8343DEC21EBCB14FA3E8C1208E484807 /* SBPickerSelector.modulemap */,
+				C0146DAA4A162997E571D0F4204F2494 /* SBPickerSelector.xcconfig */,
+				ED4A96204D70BF8579670E8807CEBE6B /* SBPickerSelector-dummy.m */,
+				152D6E76BC9F8C3AC135000264EF87C9 /* SBPickerSelector-prefix.pch */,
+				8919A152CECC056CB89809245E407F3D /* SBPickerSelector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBPickerSelector";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		188DB78ED6B622AB8F9C0161C7CCBD18 /* Headers */ = {
+		21A906C5C02E549F9F8692CE0A56F43B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C44BD8D088C27AB55E0F142E0CC1A6 /* CollapsibleTableSectionViewController-umbrella.h in Headers */,
+				C0A5D393FE99D1B51E72C294FE24C7AE /* FoldingCell-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DBF73FF62D10252DA7DB3AADDA911BA /* Headers */ = {
+		4CEADBB6CDCC380CBC0DDF2FA9D474F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F278DF313EC8B54BEC595A80DBF61443 /* SwiftyJSON-umbrella.h in Headers */,
+				68DB7C3B5153E081D28DAF32F11C9E58 /* SBPickerSelector-umbrella.h in Headers */,
+				BD5D8E68A86995FC4702E3E68A285160 /* SBPickerSelector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		436297627A7E3778D31145B2764DFD21 /* Headers */ = {
+		53B243D2DA8E11342BB589DEF4420083 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096BEB16AC73F0A28C9CB268D8210BA8 /* Pods-Orarul Tau-umbrella.h in Headers */,
+				2157585C411B7C33C108E04F8BF582A1 /* UnderLineTextField-umbrella.h in Headers */,
+				3A0B22C391D05595F56A1047F6C1C3DF /* UnderLineTextField.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA1D528DFDF991144F197FBD0B317BE5 /* Headers */ = {
+		5D61131C3AEF842E371FA1C883853F6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA6824E8E84AE56E5060C3F08E8A2E7 /* SBPickerSelector-umbrella.h in Headers */,
-				F2C3EAD0FECC5B0A73F06DF856A4C4D0 /* SBPickerSelector.h in Headers */,
+				149C95327F02AF8A21FC96702E8D5659 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C076CFEE0FF01F0C23DDE7D0F427BC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109B0FA5FC442E12E30CB5EAC748A3F4 /* Pods-Orarul Tau-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,25 +529,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC12E7211EE428A590F5AFDC6EF94C21 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B111DE11D0C1E7CEE2FAB2FAE370110B /* UnderLineTextField-umbrella.h in Headers */,
-				B6845F2D4A64530114F20D797AF1C105 /* UnderLineTextField.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		10689F34F6113131DA5DF039DD61A9A9 /* SwiftyJSON */ = {
+		0467609536BE1FC48FEEA06CAF80D8DE /* UnderLineTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABD77E8539BE3BF8F05FA90ED9E2FBA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = F1008B5D834BAE97C8B3E45E6C8B8762 /* Build configuration list for PBXNativeTarget "UnderLineTextField" */;
 			buildPhases = (
-				EAEBB67DFCA02B2A7009064E113286A7 /* Sources */,
-				97AFA7B753CC97C043B894144EA959F4 /* Frameworks */,
-				2DBF73FF62D10252DA7DB3AADDA911BA /* Headers */,
+				DDD7757CDD7CA0C93A04EFAD6685B1EE /* Sources */,
+				BF49A8803B8A50FE08F043CC8E301870 /* Frameworks */,
+				53B243D2DA8E11342BB589DEF4420083 /* Headers */,
+				01D24950F3EFF686536836A394F29FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnderLineTextField;
+			productName = UnderLineTextField;
+			productReference = 9F0150BCBA64C5DF642DB27A1BA2C57A /* UnderLineTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		593608D2DFA8834AB8FF7A83B1DD22D9 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB15CD4D034C2EB0A288ED865A890DD /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				DA244D55EFAD48DF4DDF9C41DAF41517 /* Sources */,
+				481C4A42D2AECB3A9E3D1899D2A0BECE /* Frameworks */,
+				5D61131C3AEF842E371FA1C883853F6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -553,29 +564,47 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = 040E7E9DE3317F7158A0EE519D65B8B6 /* SwiftyJSON.framework */;
+			productReference = 09A6923D215CD4E5B6F44444EF604F67 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		811D0C377D06183C9A7736568DFED692 /* Pods-Orarul Tau */ = {
+		595AB8CCEF10A265EB55AFFD69FC31D9 /* Pods-Orarul Tau */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96D97B0C6B68442B4F9A23AD33C95D56 /* Build configuration list for PBXNativeTarget "Pods-Orarul Tau" */;
+			buildConfigurationList = 6DADEAA5DB098F0F2D69AF1C26365AB2 /* Build configuration list for PBXNativeTarget "Pods-Orarul Tau" */;
 			buildPhases = (
-				B3AE393BF8211AE837A08D357F685B82 /* Sources */,
-				FE8253C055B37A59B358AD19A21DF71F /* Frameworks */,
-				436297627A7E3778D31145B2764DFD21 /* Headers */,
+				5F7AE7AA49F21B043431A612E20AAEB3 /* Sources */,
+				9B2434C7A9B4DFBB40C968A1656A30E0 /* Frameworks */,
+				9C076CFEE0FF01F0C23DDE7D0F427BC7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A16245A12B27CACE401C86F5769F3020 /* PBXTargetDependency */,
-				5D0BA5C99FB6505CD36E0031C9F08E86 /* PBXTargetDependency */,
-				CC782DFF46587DC7FB337724BA1FC3A1 /* PBXTargetDependency */,
-				2CF9F389F940F1F8BC37702CE89DCC9E /* PBXTargetDependency */,
-				6BDE6ABF80DB1A2508E0EBDEDA6A3191 /* PBXTargetDependency */,
+				B8D17739EE325B6865B1EE7E8EA4008F /* PBXTargetDependency */,
+				026C11F887A66B7F029ADD194FE3644A /* PBXTargetDependency */,
+				142122584F4BCA2DE805C2CF23751F8C /* PBXTargetDependency */,
+				2589AB4165D9A44F19BE2161B2808118 /* PBXTargetDependency */,
+				B2A80184BD74BCA6B0A28D0C4725976D /* PBXTargetDependency */,
 			);
 			name = "Pods-Orarul Tau";
 			productName = "Pods-Orarul Tau";
-			productReference = 49E8B4A9B065C97C215E871E917B6686 /* Pods_Orarul_Tau.framework */;
+			productReference = A45113828B4AE39BB0E669C0EB68FEA3 /* Pods_Orarul_Tau.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74F8D509EC397E42253C73FE7EF3543D /* SBPickerSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA5ACB3B76D1D8B4830A655818DFDC7 /* Build configuration list for PBXNativeTarget "SBPickerSelector" */;
+			buildPhases = (
+				8BF799A01A937FFBDA887FF536710791 /* Sources */,
+				C0339062662E9511D6139E58270986C3 /* Frameworks */,
+				4CEADBB6CDCC380CBC0DDF2FA9D474F5 /* Headers */,
+				6C2EABCFC5BC700B51C0AFBA85F7E3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBPickerSelector;
+			productName = SBPickerSelector;
+			productReference = 5F1C7F5EA1A55AE9FE8A483D2B4BECEF /* SBPickerSelector.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -592,60 +621,24 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = FB7CF91AE7C4C432B0A501308B526D34 /* Alamofire.framework */;
+			productReference = A38DCB91D10D16F6C92567C89DFA144E /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A0FD5165A1C577A1F8B3EDCA93CC8315 /* UnderLineTextField */ = {
+		B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 278E45F7F58C8E65DF8E874D493AB195 /* Build configuration list for PBXNativeTarget "UnderLineTextField" */;
+			buildConfigurationList = B5E52972EF33CE3CB7D4D997DA9EA71A /* Build configuration list for PBXNativeTarget "FoldingCell" */;
 			buildPhases = (
-				65AB3F8BC724D47F23704DDC1C2F256A /* Sources */,
-				B15A0848A7A27642AD624AB228CE25F2 /* Frameworks */,
-				DC12E7211EE428A590F5AFDC6EF94C21 /* Headers */,
-				D1C789F5D6988F3605A92AC1F38A03B6 /* Resources */,
+				C7CB2C7035BBEB0B87DC77599F23895D /* Sources */,
+				4DB7D0D56107AEB73B9C575B53DA46F5 /* Frameworks */,
+				21A906C5C02E549F9F8692CE0A56F43B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UnderLineTextField;
-			productName = UnderLineTextField;
-			productReference = 9728631592367DB7942234F45CCF98B5 /* UnderLineTextField.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A55696F272FF688344C4A01C6393E2F7 /* CollapsibleTableSectionViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB88D1F3C8E17937595F2367B321C510 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */;
-			buildPhases = (
-				FA14D2E4DA0839EB2D99451E9E9C1FCC /* Sources */,
-				48746E7EB54D5D2AAF51DF1A8B832930 /* Frameworks */,
-				188DB78ED6B622AB8F9C0161C7CCBD18 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CollapsibleTableSectionViewController;
-			productName = CollapsibleTableSectionViewController;
-			productReference = 34A52E068A5C719422C9E70A3F010B9D /* CollapsibleTableSectionViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E7D5860EBBEFE51D0F33CA0C9C6D3CBD /* SBPickerSelector */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3D12403C65F52B5063DC6EED5CFF027 /* Build configuration list for PBXNativeTarget "SBPickerSelector" */;
-			buildPhases = (
-				E1C7B5B734B407D4C992565F289CC161 /* Sources */,
-				A0C9435D7221413D1665EC330006E3AE /* Frameworks */,
-				AA1D528DFDF991144F197FBD0B317BE5 /* Headers */,
-				CAE7F29BAA96F70F79574702F33D5707 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SBPickerSelector;
-			productName = SBPickerSelector;
-			productReference = A92AED07744E90FD0000C3CA9FAD9198 /* SBPickerSelector.framework */;
+			name = FoldingCell;
+			productName = FoldingCell;
+			productReference = F302C0BE992AFBC4C527883E52AD89CD /* FoldingCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -654,8 +647,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -665,34 +658,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3A992166F792BFA05435C7FE5C0BDCD2 /* Products */;
+			productRefGroup = 459F957678538C8938C509C0EA64A677 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				A55696F272FF688344C4A01C6393E2F7 /* CollapsibleTableSectionViewController */,
-				811D0C377D06183C9A7736568DFED692 /* Pods-Orarul Tau */,
-				E7D5860EBBEFE51D0F33CA0C9C6D3CBD /* SBPickerSelector */,
-				10689F34F6113131DA5DF039DD61A9A9 /* SwiftyJSON */,
-				A0FD5165A1C577A1F8B3EDCA93CC8315 /* UnderLineTextField */,
+				B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */,
+				595AB8CCEF10A265EB55AFFD69FC31D9 /* Pods-Orarul Tau */,
+				74F8D509EC397E42253C73FE7EF3543D /* SBPickerSelector */,
+				593608D2DFA8834AB8FF7A83B1DD22D9 /* SwiftyJSON */,
+				0467609536BE1FC48FEEA06CAF80D8DE /* UnderLineTextField */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CAE7F29BAA96F70F79574702F33D5707 /* Resources */ = {
+		01D24950F3EFF686536836A394F29FAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0455B70BED64C0C71464B6D416521F /* SBPickerSelector.xib in Resources */,
+				67349CD9E0A377BF63D299C58ABD8EEE /* Extera.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1C789F5D6988F3605A92AC1F38A03B6 /* Resources */ = {
+		6C2EABCFC5BC700B51C0AFBA85F7E3F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B692096D0C85E6174046D573AC233F4 /* Extera.xcassets in Resources */,
+				1386B7919984CD0B4139F4BFCD5A3554 /* SBPickerSelector.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -724,98 +717,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65AB3F8BC724D47F23704DDC1C2F256A /* Sources */ = {
+		5F7AE7AA49F21B043431A612E20AAEB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13492B9E96D7D7AF2959D05ECAE1E4E3 /* UIAnimatableLabel.swift in Sources */,
-				39CCEB8B1B001A6FCCD4BE31B3CFFCC2 /* UnderLineTextField-dummy.m in Sources */,
-				32D26D0FF3FBDCC9B9154D7C492E32EB /* UnderLineTextField.swift in Sources */,
-				C58488F7BFD83CE3E5E22F28FE55D0BF /* UnderLineTextFieldContentStatus.swift in Sources */,
-				AB6582E6C83AF88414F5CFCF99831366 /* UnderLineTextFieldDelegate.swift in Sources */,
-				B1888704497BAC2837E69C2090445A85 /* UnderLineTextFieldErrors.swift in Sources */,
-				A3936B01C2AAAF63825161AD60238CAB /* UnderLineTextFieldFocusStatus.swift in Sources */,
-				BF0C4DA626216B1E1EFDC8DE5549AAD3 /* UnderLineTextFieldStatus.swift in Sources */,
-				760A219B47EC5B9A786F4981EAFFB519 /* UnderLineTextFieldValidateType.swift in Sources */,
-				1F8F58D11325A19EB4AACC06F2E2ABA7 /* VerticalAlignmentTextLayer.swift in Sources */,
+				04CB752C0008D567356A070714FC2FAA /* Pods-Orarul Tau-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3AE393BF8211AE837A08D357F685B82 /* Sources */ = {
+		8BF799A01A937FFBDA887FF536710791 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF2276F60FA4F316553CD3D5C556389 /* Pods-Orarul Tau-dummy.m in Sources */,
+				632711812AA29AC14A95315FAC334B1D /* SBPickerSelector-dummy.m in Sources */,
+				FC1F8669E54A43D33D507748CD159E6B /* SBPickerSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1C7B5B734B407D4C992565F289CC161 /* Sources */ = {
+		C7CB2C7035BBEB0B87DC77599F23895D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5764C1C3B4D30618F0DBC569EB8B37AD /* SBPickerSelector-dummy.m in Sources */,
-				C26C8D71A847A1E1E0443EC5B3C47055 /* SBPickerSelector.m in Sources */,
+				1C9AF992C79F9F46BB71E12D071A9AB7 /* FoldingCell-dummy.m in Sources */,
+				F49A6EEDCA1094D7B69DC165A55FD77C /* FoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAEBB67DFCA02B2A7009064E113286A7 /* Sources */ = {
+		DA244D55EFAD48DF4DDF9C41DAF41517 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17880FD0C003E5B134ED5577E538DB16 /* SwiftyJSON-dummy.m in Sources */,
-				13B675A0952816EC667D52C0B1125688 /* SwiftyJSON.swift in Sources */,
+				BD53006373C11D1683876845CE801472 /* SwiftyJSON-dummy.m in Sources */,
+				DEA5643CBD926D0B893D69D938B82193 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA14D2E4DA0839EB2D99451E9E9C1FCC /* Sources */ = {
+		DDD7757CDD7CA0C93A04EFAD6685B1EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7AF665A92BD74EF29ED689E5B5A785 /* CollapsibleTableSectionViewController-dummy.m in Sources */,
-				5F15AB9A0DAB41746B6C22450FE08D4D /* CollapsibleTableSectionViewController.swift in Sources */,
-				2FC6EA0354959DB64AF31FA94C5CDFF6 /* CollapsibleTableViewHeader.swift in Sources */,
+				4485A2D93B6CE57DDBF97CB51C98A4E9 /* UIAnimatableLabel.swift in Sources */,
+				631F1E054B30C41A29E7F71369C0D01B /* UnderLineTextField-dummy.m in Sources */,
+				F9F4E9D0AB8540AEE1F8BA5EBF25649E /* UnderLineTextField.swift in Sources */,
+				23A943D5B5D347F3EEB0077725168692 /* UnderLineTextFieldContentStatus.swift in Sources */,
+				2F78C873FA635AB6A71E02632ED04735 /* UnderLineTextFieldDelegate.swift in Sources */,
+				D1C51265A6B67FC384B4D582C19948E6 /* UnderLineTextFieldErrors.swift in Sources */,
+				DFFE26EB4DB258E495F80BB1BB80658A /* UnderLineTextFieldFocusStatus.swift in Sources */,
+				248B3DF924F10DC8DE7CC5ED656ADD54 /* UnderLineTextFieldStatus.swift in Sources */,
+				68B6ACEF0F511512AD138B739F3839B6 /* UnderLineTextFieldValidateType.swift in Sources */,
+				EBF9A46D88DA21743F29366ADF1154CD /* VerticalAlignmentTextLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CF9F389F940F1F8BC37702CE89DCC9E /* PBXTargetDependency */ = {
+		026C11F887A66B7F029ADD194FE3644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingCell;
+			target = B626E472969D6F87698AF0041EAAFC38 /* FoldingCell */;
+			targetProxy = 9A1FDEBCC55F700C32A7FE4DC639DB56 /* PBXContainerItemProxy */;
+		};
+		142122584F4BCA2DE805C2CF23751F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBPickerSelector;
+			target = 74F8D509EC397E42253C73FE7EF3543D /* SBPickerSelector */;
+			targetProxy = 791FFA4A3DEAEF427D33FFCE043EF2A1 /* PBXContainerItemProxy */;
+		};
+		2589AB4165D9A44F19BE2161B2808118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
-			target = 10689F34F6113131DA5DF039DD61A9A9 /* SwiftyJSON */;
-			targetProxy = 7FC473BEA972E5EB14E7B7D017C7C160 /* PBXContainerItemProxy */;
+			target = 593608D2DFA8834AB8FF7A83B1DD22D9 /* SwiftyJSON */;
+			targetProxy = AECFDD9F86ED9C29E5A3810FF9C83AEF /* PBXContainerItemProxy */;
 		};
-		5D0BA5C99FB6505CD36E0031C9F08E86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CollapsibleTableSectionViewController;
-			target = A55696F272FF688344C4A01C6393E2F7 /* CollapsibleTableSectionViewController */;
-			targetProxy = 2DEFE313DFAABE682E74AE8A6E6ADDE1 /* PBXContainerItemProxy */;
-		};
-		6BDE6ABF80DB1A2508E0EBDEDA6A3191 /* PBXTargetDependency */ = {
+		B2A80184BD74BCA6B0A28D0C4725976D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UnderLineTextField;
-			target = A0FD5165A1C577A1F8B3EDCA93CC8315 /* UnderLineTextField */;
-			targetProxy = A2B08D4C68CEB2ADE980A426816F0526 /* PBXContainerItemProxy */;
+			target = 0467609536BE1FC48FEEA06CAF80D8DE /* UnderLineTextField */;
+			targetProxy = 0359C87E447314486EC9EAA11889F6AC /* PBXContainerItemProxy */;
 		};
-		A16245A12B27CACE401C86F5769F3020 /* PBXTargetDependency */ = {
+		B8D17739EE325B6865B1EE7E8EA4008F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = D5EA88E53B23D43F5B9EC5936E67009E /* PBXContainerItemProxy */;
-		};
-		CC782DFF46587DC7FB337724BA1FC3A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SBPickerSelector;
-			target = E7D5860EBBEFE51D0F33CA0C9C6D3CBD /* SBPickerSelector */;
-			targetProxy = 93545E0812037B274BF888CEC880AF1C /* PBXContainerItemProxy */;
+			targetProxy = AE51E525D585059D681E67634522BD99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DA22A7CE4F71A873364B228F144DE02 /* Release */ = {
+		1DB941AB6D3E9070AE86939E3D3BA573 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8586EF7E13E1071F821FC25F059E3A1 /* UnderLineTextField.xcconfig */;
+			baseConfigurationReference = 84FCE47B954FA6986DDEB103E18E0C35 /* UnderLineTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -845,39 +837,7 @@
 			};
 			name = Release;
 		};
-		68B68E15CE5C0D2A898391B5164D6D98 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF87F082B8B6D6E04E9E8AAEEC786F2 /* CollapsibleTableSectionViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
-				PRODUCT_NAME = CollapsibleTableSectionViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -887,10 +847,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -898,6 +860,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -932,9 +895,9 @@
 			};
 			name = Release;
 		};
-		84917EE1C0EB568DA4EF09A41D0AB904 /* Release */ = {
+		39B68F63E62A6DB2537519DF33460A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2912A41968D4348714162633C10F1CE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 72D5598D42E08486E401595A96534520 /* Pods-Orarul Tau.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -945,28 +908,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Orarul Tau/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_NAME = SwiftyJSON;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Orarul_Tau;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		901F0678404DA88E351CAB2237EEAE7D /* Debug */ = {
+		413AEEA250C030DE0A2F71FCDAB63AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8586EF7E13E1071F821FC25F059E3A1 /* UnderLineTextField.xcconfig */;
+			baseConfigurationReference = 84FCE47B954FA6986DDEB103E18E0C35 /* UnderLineTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -995,9 +960,43 @@
 			};
 			name = Debug;
 		};
-		9CAA26103E11FD780C71B12075E910FD /* Release */ = {
+		827A8CECA1F719E7323B4814D969CF76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82D10F31A5053801A58D27E026C1B03 /* SBPickerSelector.xcconfig */;
+			baseConfigurationReference = 8F64335D614A8B9FDA161876DA797829 /* Pods-Orarul Tau.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Orarul Tau/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Orarul_Tau;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C49C07734D0D0EFD685B68865AC032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0146DAA4A162997E571D0F4204F2494 /* SBPickerSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1026,9 +1025,9 @@
 			};
 			name = Release;
 		};
-		A263538AF913D80E5FFD7026B2C4224C /* Debug */ = {
+		980EE6578CD3FC698E97F17F59D586A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2912A41968D4348714162633C10F1CE /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 6B0E88C6EC02080CBC90D8D5EECF4654 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1059,7 +1058,7 @@
 		};
 		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26FAC07F51F7901B98CB24A324DB1424 /* Alamofire.xcconfig */;
+			baseConfigurationReference = A0D220387E038EE55930D7DF8F844378 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1088,7 +1087,70 @@
 			};
 			name = Debug;
 		};
-		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D220387E038EE55930D7DF8F844378 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2300E53983FCC4D804C6B1632215529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52705C5AB6DFE5BA7AF796CFA38F9FAC /* FoldingCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_NAME = FoldingCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1098,10 +1160,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1109,6 +1173,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1148,9 +1213,9 @@
 			};
 			name = Debug;
 		};
-		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
+		E6FD6C47A45FE359A57896B0E6CC6900 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26FAC07F51F7901B98CB24A324DB1424 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 52705C5AB6DFE5BA7AF796CFA38F9FAC /* FoldingCell.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1161,13 +1226,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_NAME = Alamofire;
+				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
+				PRODUCT_NAME = FoldingCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1180,108 +1245,9 @@
 			};
 			name = Release;
 		};
-		C5CBB40127A42EBD156A63E8DDF84332 /* Debug */ = {
+		F08DBEF4ED70A7F5864BE57B9ECA2176 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 394F6DA37D154C51A320D5619CE407B2 /* Pods-Orarul Tau.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Orarul Tau/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Orarul_Tau;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C5F2E714563897054E0A0CE68A1FCFC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BF87F082B8B6D6E04E9E8AAEEC786F2 /* CollapsibleTableSectionViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CollapsibleTableSectionViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.modulemap";
-				PRODUCT_NAME = CollapsibleTableSectionViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E346A094288F6752AD187C04ABD59E13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9B9E093CEDD62602F410ED7CC370BED /* Pods-Orarul Tau.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Orarul Tau/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Orarul_Tau;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F4E96F174A14A45CB2A24A0DC5417964 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82D10F31A5053801A58D27E026C1B03 /* SBPickerSelector.xcconfig */;
+			baseConfigurationReference = C0146DAA4A162997E571D0F4204F2494 /* SBPickerSelector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1309,23 +1275,46 @@
 			};
 			name = Debug;
 		};
+		F19282B5899C306A65490B04D657F5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0E88C6EC02080CBC90D8D5EECF4654 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		278E45F7F58C8E65DF8E874D493AB195 /* Build configuration list for PBXNativeTarget "UnderLineTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				901F0678404DA88E351CAB2237EEAE7D /* Debug */,
-				1DA22A7CE4F71A873364B228F144DE02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
-				6F9224530522DD3C735EC96CF142642E /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1339,38 +1328,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96D97B0C6B68442B4F9A23AD33C95D56 /* Build configuration list for PBXNativeTarget "Pods-Orarul Tau" */ = {
+		6DADEAA5DB098F0F2D69AF1C26365AB2 /* Build configuration list for PBXNativeTarget "Pods-Orarul Tau" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5CBB40127A42EBD156A63E8DDF84332 /* Debug */,
-				E346A094288F6752AD187C04ABD59E13 /* Release */,
+				39B68F63E62A6DB2537519DF33460A22 /* Debug */,
+				827A8CECA1F719E7323B4814D969CF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABD77E8539BE3BF8F05FA90ED9E2FBA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		AEB15CD4D034C2EB0A288ED865A890DD /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A263538AF913D80E5FFD7026B2C4224C /* Debug */,
-				84917EE1C0EB568DA4EF09A41D0AB904 /* Release */,
+				980EE6578CD3FC698E97F17F59D586A9 /* Debug */,
+				F19282B5899C306A65490B04D657F5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB88D1F3C8E17937595F2367B321C510 /* Build configuration list for PBXNativeTarget "CollapsibleTableSectionViewController" */ = {
+		B5E52972EF33CE3CB7D4D997DA9EA71A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5F2E714563897054E0A0CE68A1FCFC6 /* Debug */,
-				68B68E15CE5C0D2A898391B5164D6D98 /* Release */,
+				D2300E53983FCC4D804C6B1632215529 /* Debug */,
+				E6FD6C47A45FE359A57896B0E6CC6900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D12403C65F52B5063DC6EED5CFF027 /* Build configuration list for PBXNativeTarget "SBPickerSelector" */ = {
+		EAA5ACB3B76D1D8B4830A655818DFDC7 /* Build configuration list for PBXNativeTarget "SBPickerSelector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4E96F174A14A45CB2A24A0DC5417964 /* Debug */,
-				9CAA26103E11FD780C71B12075E910FD /* Release */,
+				F08DBEF4ED70A7F5864BE57B9ECA2176 /* Debug */,
+				8C49C07734D0D0EFD685B68865AC032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1008B5D834BAE97C8B3E45E6C8B8762 /* Build configuration list for PBXNativeTarget "UnderLineTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413AEEA250C030DE0A2F71FCDAB63AB2 /* Debug */,
+				1DB941AB6D3E9070AE86939E3D3BA573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

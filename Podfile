@@ -6,9 +6,9 @@ target 'Orarul Tau' do
 
   pod 'SBPickerSelector'
   pod 'UnderLineTextField', '~> 2.0'
-  pod 'CollapsibleTableSectionViewController', '~> 1.0.0'
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'FoldingCell'
 
 
 end

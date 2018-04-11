@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="College" representedClassName=".College" syncable="YES" codeGenerationType="class">
-        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="college" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="titlu_facultate" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="uTime" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="hasGrupe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Grupe" inverseName="bellongsToColegiu" inverseEntity="Grupe" syncable="YES"/>
     </entity>
     <entity name="Grupe" representedClassName=".Grupe" syncable="YES" codeGenerationType="class">
         <attribute name="an" attributeType="String" syncable="YES"/>
@@ -12,6 +12,10 @@
         <attribute name="serie" attributeType="String" syncable="YES"/>
         <attribute name="title" attributeType="String" syncable="YES"/>
         <attribute name="uTime" attributeType="String" syncable="YES"/>
+        <relationship name="bellongsToColegiu" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="College" inverseName="hasGrupe" inverseEntity="College" syncable="YES"/>
+        <relationship name="hasMaterii" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Materii" inverseName="hasGrupe" inverseEntity="Materii" syncable="YES"/>
+        <relationship name="hasOre" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ore" inverseName="belongsToGrupe" inverseEntity="Ore" syncable="YES"/>
+        <relationship name="hasSali" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Sali" inverseName="belongsToGrupa" inverseEntity="Sali" syncable="YES"/>
     </entity>
     <entity name="Materii" representedClassName=".Materii" syncable="YES" codeGenerationType="class">
         <attribute name="an" attributeType="String" syncable="YES"/>
@@ -20,35 +24,49 @@
         <attribute name="specializare" attributeType="String" syncable="YES"/>
         <attribute name="title" attributeType="String" syncable="YES"/>
         <attribute name="uTime" attributeType="String" syncable="YES"/>
+        <relationship name="belongsToProfesor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profesori" inverseName="belongsToMaterii" inverseEntity="Profesori" syncable="YES"/>
+        <relationship name="hasGrupe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Grupe" inverseName="hasMaterii" inverseEntity="Grupe" syncable="YES"/>
+        <relationship name="hasOre" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ore" inverseName="hasMaterii" inverseEntity="Ore" syncable="YES"/>
     </entity>
     <entity name="Ore" representedClassName=".Ore" syncable="YES" codeGenerationType="class">
-        <attribute name="grupa_ID" attributeType="String" syncable="YES"/>
-        <attribute name="id" attributeType="String" syncable="YES"/>
-        <attribute name="materie_ID" attributeType="String" syncable="YES"/>
-        <attribute name="profesor_ID" attributeType="String" syncable="YES"/>
-        <attribute name="sala_ID" attributeType="String" syncable="YES"/>
-        <attribute name="uTime" attributeType="String" syncable="YES"/>
-        <attribute name="zi_index" attributeType="String" syncable="YES"/>
+        <attribute name="categ" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grupa_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materie_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ora_index" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profesor_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sala_ID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zi_index" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongsToGrupe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grupe" inverseName="hasOre" inverseEntity="Grupe" syncable="YES"/>
+        <relationship name="hasMaterii" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Materii" inverseName="hasOre" inverseEntity="Materii" syncable="YES"/>
+        <relationship name="hasProfesor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profesori" inverseName="belongsToOre" inverseEntity="Profesori" syncable="YES"/>
+        <relationship name="hasSala" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sali" inverseName="belongsToOre" inverseEntity="Sali" syncable="YES"/>
     </entity>
     <entity name="Profesori" representedClassName=".Profesori" syncable="YES" codeGenerationType="class">
-        <attribute name="catedra" attributeType="String" syncable="YES"/>
-        <attribute name="email" attributeType="String" syncable="YES"/>
-        <attribute name="functia" attributeType="String" syncable="YES"/>
-        <attribute name="id" attributeType="String" syncable="YES"/>
-        <attribute name="title" attributeType="String" syncable="YES"/>
-        <attribute name="uTime" attributeType="String" syncable="YES"/>
+        <attribute name="catedra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="functia" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uTime" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongsToMaterii" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Materii" inverseName="belongsToProfesor" inverseEntity="Materii" syncable="YES"/>
+        <relationship name="belongsToOre" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Ore" inverseName="hasProfesor" inverseEntity="Ore" syncable="YES"/>
     </entity>
     <entity name="Sali" representedClassName=".Sali" syncable="YES" codeGenerationType="class">
         <attribute name="id" attributeType="String" syncable="YES"/>
         <attribute name="title" attributeType="String" syncable="YES"/>
         <attribute name="uTime" attributeType="String" syncable="YES"/>
+        <relationship name="belongsToGrupa" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grupe" inverseName="hasSali" inverseEntity="Grupe" syncable="YES"/>
+        <relationship name="belongsToOre" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ore" inverseName="hasSala" inverseEntity="Ore" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Grupe" positionX="-63" positionY="-18" width="128" height="120"/>
-        <element name="Ore" positionX="-54" positionY="27" width="128" height="150"/>
-        <element name="College" positionX="-36" positionY="72" width="128" height="105"/>
-        <element name="Materii" positionX="-18" positionY="81" width="128" height="135"/>
-        <element name="Profesori" positionX="0" positionY="117" width="128" height="135"/>
-        <element name="Sali" positionX="18" positionY="144" width="128" height="90"/>
+        <element name="College" positionX="-173" positionY="-145" width="128" height="103"/>
+        <element name="Grupe" positionX="-596" positionY="-216" width="128" height="178"/>
+        <element name="Materii" positionX="27" positionY="-72" width="128" height="178"/>
+        <element name="Ore" positionX="-803" positionY="-45" width="128" height="253"/>
+        <element name="Profesori" positionX="16" positionY="207" width="128" height="163"/>
+        <element name="Sali" positionX="-245" positionY="135" width="128" height="118"/>
     </elements>
 </model>

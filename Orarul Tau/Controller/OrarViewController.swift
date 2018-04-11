@@ -7,42 +7,25 @@
 //
 
 import UIKit
-import CollapsibleTableSectionViewController
 
 
-class OrarViewController: CollapsibleTableSectionViewController  {
+
+
+class OrarViewController: UITableViewController  {
+    
+    var selectedGroup: Dictionary = [String : String]()
+
+    
+    
+  //  var cellHeights = (0..<CELLCOUNT).map { _ in C.CellHeight.close }
+
         
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
+    
+
+
+
+
 }
-
-//    extension ViewController: CollapsibleTableSectionDelegate {
-//        func numberOfSections(_ tableView: UITableView) -> Int {
-//            return 1
-//        }
-//
-//        func collapsibleTableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//                return 3
-//            }
-//        func collapsibleTableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! OrarViewCell!
-//            cell?.textCell.text = "Hello"
-//            return cell!
-//        }
-//
-//        func collapsibleTableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
-//
-//            return "Luni"
-//        }
-
-
-
-
-
-
-
-
-
