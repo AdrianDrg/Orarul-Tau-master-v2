@@ -8,7 +8,7 @@ target 'Orarul Tau' do
   pod 'UnderLineTextField', '~> 2.0'
   pod 'Alamofire'
   pod 'SwiftyJSON'
-  pod 'FoldingCell'
+  pod 'DropDownTableView/Swift'
 
 
 end

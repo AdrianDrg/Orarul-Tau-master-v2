@@ -28,6 +28,11 @@
         var collegeIS : College?
         var grupeArrayForRel = [Grupe]()
         var saliArrayForRel = [Sali]()
+        var materiiArrayForRel = [Materii]()
+        var profesorArrayForRel = [Profesori]()
+        var listaGrupe = [Grupe]()
+
+
         var utime : String = ""
         let fac = ["CSIE"]
         let universitati = ["Academia de Studii Economice din Bucuresti"]
@@ -290,6 +295,7 @@
             TakeOreUtime()
             if utime != String(describing: json["response"]["ore"][0]["utime"]) {
                 DeleteData(entity: "Ore")
+                
                 let fetchRequest = NSFetchRequest<Grupe>(entityName: "Grupe")
                 do {
                     let fetchedResults = try context.fetch(fetchRequest)
@@ -297,9 +303,9 @@
                         grupeArrayForRel.append(fetchedResults[result])
                     }
                 } catch let error as NSError {
-                    // something went wrong, print the error.
                     print(error.description)
                 }
+                
                 let saliFetchRequest = NSFetchRequest<Sali>(entityName: "Sali")
                 do {
                     let saliFetchedResults = try context.fetch(saliFetchRequest)
@@ -307,9 +313,31 @@
                         saliArrayForRel.append(saliFetchedResults[result])
                     }
                 } catch let error as NSError {
-                    // something went wrong, print the error.
                     print(error.description)
                 }
+                
+                let materiiFetchRequest = NSFetchRequest<Materii>(entityName: "Materii")
+                do {
+                    let materiiFetchedResults = try context.fetch(materiiFetchRequest)
+                    
+                    for materie in 0..<materiiFetchedResults.count{
+                        materiiArrayForRel.append(materiiFetchedResults[materie])
+                    }
+                } catch let error as NSError {
+                    print(error.description)
+                }
+                
+                let profesoriFetchRequest = NSFetchRequest<Profesori>(entityName: "Profesori")
+                do {
+                    let profesoriFetchedResults = try context.fetch(profesoriFetchRequest)
+                    
+                    for profesor in 0..<profesoriFetchedResults.count{
+                        profesorArrayForRel.append(profesoriFetchedResults[profesor])
+                    }
+                } catch let error as NSError {
+                    print(error.description)
+                }
+                
                 json["response"]["ore"].forEach {
                     let setOre = Ore(context: context)
                     setOre.grupa_ID = String(describing: $1["grupa_id"])
@@ -330,6 +358,18 @@
                     for sali in 0..<saliArrayForRel.count{
                         if saliArrayForRel[sali].id == setOre.sala_ID{
                             setOre.hasSala = saliArrayForRel[sali]
+                        }
+                    }
+                    
+                    for materii in 0..<materiiArrayForRel.count{
+                        if materiiArrayForRel[materii].id == setOre.materie_ID{
+                            setOre.hasMaterii = materiiArrayForRel[materii]
+                        }
+                    }
+                    
+                    for profesori in 0..<profesorArrayForRel.count{
+                        if profesorArrayForRel[profesori].id == setOre.profesor_ID{
+                            setOre.hasProfesor = profesorArrayForRel[profesori]
                         }
                     }
                 }
@@ -370,8 +410,23 @@
         
         /*===What happens when "Vezi orarul" button is pressed====*/
         @IBAction func veziOrarulPressed(_ sender: UIButton) {
-     
-        
+//            print(selectedGroup)
+//           let request : NSFetchRequest<Grupe> = Grupe.fetchRequest()
+//         let predicate = NSPredicate(format: "title MATCHES %@", selectedGroup)
+//            request.predicate = predicate
+//
+//            do{
+//                listaGrupe = try context.fetch(request)
+//
+//                print(ore?.count)
+//
+//            } catch {
+//
+//                print("Error fetching the data\(error)")
+//            }
+//        }
+//
+//
             
         }
         

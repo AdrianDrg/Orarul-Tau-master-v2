@@ -132,50 +132,77 @@
             </objects>
             <point key="canvasLocation" x="348" y="140"/>
         </scene>
-        <!--Orar View Controller-->
+        <!--Table View Controller-->
         <scene sceneID="Fu6-nK-LFD">
             <objects>
-                <tableViewController id="DG2-aA-v3m" customClass="OrarViewController" customModule="Orarul_Tau" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IDY-CD-EbR">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7J7-DI-iXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="DG2-aA-v3m" customClass="TableViewController" customModule="Orarul_Tau" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IDY-CD-EbR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="311" id="zuU-2S-N4n" customClass="FoldingCell" customModule="FoldingCell">
-                                <rect key="frame" x="0.0" y="28" width="375" height="311"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellHeader" rowHeight="120" id="4GB-lX-Zmf" customClass="HeaderTableViewCell" customModule="Orarul_Tau" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zuU-2S-N4n" id="UAm-qv-O0t">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="311"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4GB-lX-Zmf" id="XhF-Kt-Kyn">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvJ-5r-RgG" customClass="RotatedView" customModule="Orarul_Tau" customModuleProvider="target">
-                                            <rect key="frame" x="16" y="0.0" width="343" height="55"/>
-                                            <color key="backgroundColor" red="0.15686274510000001" green="0.54117647059999996" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="55" id="4qw-hN-DZq"/>
-                                            </constraints>
-                                        </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YiW-MU-fdU">
-                                            <rect key="frame" x="16" y="63" width="343" height="128"/>
-                                            <color key="backgroundColor" red="0.15686274510000001" green="0.54117647059999996" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="128" id="8zK-Pd-8LS"/>
-                                            </constraints>
-                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12:30 - 18:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCh-lO-4jU">
+                                            <rect key="frame" x="224" y="49" width="102" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <color key="textColor" red="0.031372549020000001" green="0.1960784314" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTu-i7-rrF">
+                                            <rect key="frame" x="16" y="44" width="142" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                            <color key="textColor" red="0.031372549020000001" green="0.1960784314" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="YiW-MU-fdU" firstAttribute="trailing" secondItem="UAm-qv-O0t" secondAttribute="trailingMargin" id="JTv-Ml-gF3"/>
-                                        <constraint firstItem="jvJ-5r-RgG" firstAttribute="leading" secondItem="UAm-qv-O0t" secondAttribute="leading" constant="16" id="JpB-lH-8em"/>
-                                        <constraint firstAttribute="trailing" secondItem="jvJ-5r-RgG" secondAttribute="trailing" constant="16" id="U2B-WA-wQu"/>
-                                        <constraint firstItem="YiW-MU-fdU" firstAttribute="top" secondItem="UAm-qv-O0t" secondAttribute="topMargin" constant="52" identifier="ContainerViewTop" id="gNE-WK-ssK"/>
-                                        <constraint firstItem="YiW-MU-fdU" firstAttribute="leading" secondItem="UAm-qv-O0t" secondAttribute="leadingMargin" id="jjo-cH-Y2s"/>
-                                        <constraint firstItem="jvJ-5r-RgG" firstAttribute="top" secondItem="UAm-qv-O0t" secondAttribute="top" identifier="ForegroundViewTop" id="npS-ZS-jG1"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="containerView" destination="YiW-MU-fdU" id="OIb-pI-aYa"/>
-                                    <outlet property="foregroundView" destination="jvJ-5r-RgG" id="QSP-UJ-1Ic"/>
+                                    <outlet property="dayText" destination="GTu-i7-rrF" id="biY-Lf-nSa"/>
+                                    <outlet property="intervalOrar" destination="eCh-lO-4jU" id="ryy-zP-i4B"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="120" id="0XO-1T-V8h" customClass="TableViewCell" customModule="Orarul_Tau" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="148" width="375" height="120"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0XO-1T-V8h" id="zBe-mT-CuS">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Content" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drH-vP-lEQ">
+                                            <rect key="frame" x="97" y="34" width="97" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                            <color key="textColor" red="1" green="0.38823529410000002" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Curs-100" translatesAutoresizingMaskIntoConstraints="NO" id="UOw-Hn-nMV">
+                                            <rect key="frame" x="0.0" y="15" width="89" height="89"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interval orar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-Sj-bbi">
+                                            <rect key="frame" x="267" y="15" width="92" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="infoImage" destination="UOw-Hn-nMV" id="nWs-cB-pMJ"/>
+                                    <outlet property="infoLabel" destination="drH-vP-lEQ" id="rSd-zJ-bgw"/>
+                                    <outlet property="intervalOrar" destination="4ha-Sj-bbi" id="h6R-1D-zhc"/>
+                                    <outlet property="textLabel" destination="drH-vP-lEQ" id="bdv-bz-uY4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -185,9 +212,8 @@
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7J7-DI-iXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1168.8" y="139.880059970015"/>
+            <point key="canvasLocation" x="1290" y="140"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XEP-CR-LBQ">
@@ -212,4 +238,7 @@
             <point key="canvasLocation" x="-465" y="140"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Curs-100" width="1025" height="1025"/>
+    </resources>
 </document>

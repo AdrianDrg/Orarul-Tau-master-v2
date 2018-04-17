@@ -14,8 +14,9 @@
 		B80A6CBC2057F7B3002B8ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A6CBB2057F7B3002B8ED7 /* ViewController.swift */; };
 		B80A6CBF2057F7B3002B8ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A6CBD2057F7B3002B8ED7 /* Main.storyboard */; };
 		B80A6CC72057F7B3002B8ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A6CC52057F7B3002B8ED7 /* LaunchScreen.storyboard */; };
-		B8DB099D20583E270074E555 /* OrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB099C20583E270074E555 /* OrarViewController.swift */; };
-		B8E91B2E205982AF00A5E6D3 /* OrarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E91B2D205982AF00A5E6D3 /* OrarViewCell.swift */; };
+		B8FDD81C2084D93200A86C54 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD81B2084D93200A86C54 /* TableViewController.swift */; };
+		B8FDD81E2084ED9800A86C54 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */; };
+		B8FDD8242084F26800A86C54 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +30,9 @@
 		B80A6CBE2057F7B3002B8ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B80A6CC62057F7B3002B8ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80A6CC82057F7B3002B8ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8DB099C20583E270074E555 /* OrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarViewController.swift; sourceTree = "<group>"; };
-		B8E91B2D205982AF00A5E6D3 /* OrarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarViewCell.swift; sourceTree = "<group>"; };
+		B8FDD81B2084D93200A86C54 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		DAF4744645B12357040B9B11 /* Pods-Orarul Tau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orarul Tau.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,9 +99,10 @@
 		B8F64C7A205950D200E47DA7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */,
 				B80A6CBB2057F7B3002B8ED7 /* ViewController.swift */,
-				B8DB099C20583E270074E555 /* OrarViewController.swift */,
-				B8E91B2D205982AF00A5E6D3 /* OrarViewCell.swift */,
+				B8FDD81B2084D93200A86C54 /* TableViewController.swift */,
+				B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,7 +236,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/FoldingCell/FoldingCell.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDownTableView/DropDownTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/SBPickerSelector/SBPickerSelector.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/UnderLineTextField/UnderLineTextField.framework",
@@ -241,7 +244,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoldingCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDownTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBPickerSelector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnderLineTextField.framework",
@@ -258,10 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FDD81E2084ED9800A86C54 /* TableViewCell.swift in Sources */,
 				B80A6CBC2057F7B3002B8ED7 /* ViewController.swift in Sources */,
-				B8DB099D20583E270074E555 /* OrarViewController.swift in Sources */,
-				B8E91B2E205982AF00A5E6D3 /* OrarViewCell.swift in Sources */,
 				3A323AB5206D65E6007F92C1 /* OrarDataModel.xcdatamodeld in Sources */,
+				B8FDD81C2084D93200A86C54 /* TableViewController.swift in Sources */,
+				B8FDD8242084F26800A86C54 /* HeaderTableViewCell.swift in Sources */,
 				B80A6CBA2057F7B3002B8ED7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
