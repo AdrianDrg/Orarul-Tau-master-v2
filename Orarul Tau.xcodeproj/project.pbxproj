@@ -14,7 +14,8 @@
 		B80A6CBC2057F7B3002B8ED7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A6CBB2057F7B3002B8ED7 /* ViewController.swift */; };
 		B80A6CBF2057F7B3002B8ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A6CBD2057F7B3002B8ED7 /* Main.storyboard */; };
 		B80A6CC72057F7B3002B8ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A6CC52057F7B3002B8ED7 /* LaunchScreen.storyboard */; };
-		B8FDD81C2084D93200A86C54 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD81B2084D93200A86C54 /* TableViewController.swift */; };
+		B87CCFAE20876E130048F5C4 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87CCFAD20876E130048F5C4 /* AlarmViewController.swift */; };
+		B8C623502086325700BD7188 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6234F2086325700BD7188 /* SecondTableViewController.swift */; };
 		B8FDD81E2084ED9800A86C54 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */; };
 		B8FDD8242084F26800A86C54 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +31,8 @@
 		B80A6CBE2057F7B3002B8ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B80A6CC62057F7B3002B8ED7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80A6CC82057F7B3002B8ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8FDD81B2084D93200A86C54 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B87CCFAD20876E130048F5C4 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		B8C6234F2086325700BD7188 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		DAF4744645B12357040B9B11 /* Pods-Orarul Tau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Orarul Tau.release.xcconfig"; path = "Pods/Target Support Files/Pods-Orarul Tau/Pods-Orarul Tau.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				B8FDD81D2084ED9800A86C54 /* TableViewCell.swift */,
-				B80A6CBB2057F7B3002B8ED7 /* ViewController.swift */,
-				B8FDD81B2084D93200A86C54 /* TableViewController.swift */,
 				B8FDD8232084F26800A86C54 /* HeaderTableViewCell.swift */,
+				B80A6CBB2057F7B3002B8ED7 /* ViewController.swift */,
+				B8C6234F2086325700BD7188 /* SecondTableViewController.swift */,
+				B87CCFAD20876E130048F5C4 /* AlarmViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,8 +266,9 @@
 			files = (
 				B8FDD81E2084ED9800A86C54 /* TableViewCell.swift in Sources */,
 				B80A6CBC2057F7B3002B8ED7 /* ViewController.swift in Sources */,
+				B87CCFAE20876E130048F5C4 /* AlarmViewController.swift in Sources */,
 				3A323AB5206D65E6007F92C1 /* OrarDataModel.xcdatamodeld in Sources */,
-				B8FDD81C2084D93200A86C54 /* TableViewController.swift in Sources */,
+				B8C623502086325700BD7188 /* SecondTableViewController.swift in Sources */,
 				B8FDD8242084F26800A86C54 /* HeaderTableViewCell.swift in Sources */,
 				B80A6CBA2057F7B3002B8ED7 /* AppDelegate.swift in Sources */,
 			);

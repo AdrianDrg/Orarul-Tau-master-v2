@@ -2,17 +2,15 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Seminar-100.jpg",
+      "filename" : "alarm-clock.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Seminar@2x-100.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Seminar@3x-100.jpg",
       "scale" : "3x"
     }
   ],

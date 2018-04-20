@@ -425,8 +425,6 @@
 //                print("Error fetching the data\(error)")
 //            }
 //        }
-//
-//
             
         }
         
@@ -499,13 +497,12 @@
                 selectedGroup = String(values[0])
             }
         }
+       
         /*===Prepare the data to be sent on the next screen====*/
 
     //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     //        //let destinationVC = segue.destination as! OrarViewController
     //
     //    }
-        
-        
     }
 

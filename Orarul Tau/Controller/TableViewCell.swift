@@ -9,18 +9,11 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-
-   
     @IBOutlet weak var infoLabel: UILabel!
-    
-    @IBOutlet weak var infoImage: UIImageView!
     @IBOutlet weak var intervalOrar: UILabel!
-    
-    
+    @IBOutlet weak var identifier: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
 }

@@ -9,21 +9,11 @@
 import UIKit
 
 class HeaderTableViewCell: UITableViewCell {
-
     @IBOutlet weak var dayText: UILabel!
-    
     @IBOutlet weak var intervalOrar: UILabel!
-    
-    
-    
+    @IBOutlet weak var dropDownImage: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
-
-    
-    
-
 }
